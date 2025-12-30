@@ -278,17 +278,221 @@ const athmData = [
         keywords: ["bed", "wedge", "pillow", "positioning"]
     },
 
+    // Nail care
+    {
+        name: "Nail brushes",
+        category: "Personal Care and Protection",
+        description: "Brushes for cleaning nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 03",
+        keywords: ["nail", "brush", "cleaning", "hygiene"]
+    },
+    {
+        name: "Nail files and emery boards",
+        category: "Personal Care and Protection",
+        description: "Files and emery boards for shaping and smoothing nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 06",
+        keywords: ["nail", "file", "emery", "grooming"]
+    },
+    {
+        name: "Nail scissors and clippers",
+        category: "Personal Care and Protection",
+        description: "Scissors and clippers for trimming nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 09",
+        keywords: ["nail", "scissors", "clippers", "trimming"]
+    },
+
+    // Hair care
+    {
+        name: "Assistive products for shampooing",
+        category: "Personal Care and Protection",
+        description: "Products to assist with hair washing and shampooing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 03",
+        keywords: ["shampoo", "hair", "washing", "hygiene"]
+    },
+    {
+        name: "Combs and hairbrushes",
+        category: "Personal Care and Protection",
+        description: "Combs and brushes for grooming hair.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 06",
+        keywords: ["comb", "hairbrush", "grooming", "hair"]
+    },
+    {
+        name: "Hair dryers",
+        category: "Personal Care and Protection",
+        description: "Devices for drying hair.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 09",
+        keywords: ["hair dryer", "drying", "hair", "grooming"]
+    },
+
+    // Dental care
+    {
+        name: "Unpowered toothbrushes",
+        category: "Personal Care and Protection",
+        description: "Manual toothbrushes for dental hygiene.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 42 03",
+        keywords: ["toothbrush", "dental", "manual", "hygiene"]
+    },
+    {
+        name: "Powered toothbrushes",
+        category: "Personal Care and Protection",
+        description: "Electric toothbrushes for dental hygiene.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 42 06",
+        keywords: ["toothbrush", "dental", "electric", "powered", "hygiene"]
+    },
+
+    // Facial care
+    {
+        name: "Shaving brushes, razors and electric shavers",
+        category: "Personal Care and Protection",
+        description: "Tools for shaving including brushes, razors and electric shavers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 03",
+        keywords: ["shaving", "razor", "electric shaver", "grooming"]
+    },
+    {
+        name: "Assistive products for application of facial products",
+        category: "Personal Care and Protection",
+        description: "Products to assist with applying facial products.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 06",
+        keywords: ["facial", "application", "cosmetics", "grooming"]
+    },
+    {
+        name: "Mirrors for facial care",
+        category: "Personal Care and Protection",
+        description: "Mirrors designed to assist with facial care activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 09",
+        keywords: ["mirror", "facial", "grooming", "care"]
+    },
+
+    // Sexual activity
+    {
+        name: "Assistive products for sexual habitation and rehabilitation",
+        category: "Personal Care and Protection",
+        description: "Products to assist with sexual activity and rehabilitation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 54 12",
+        keywords: ["sexual", "rehabilitation", "habitation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
     // =====================================================
     // MOBILITY (ISO 12)
     // =====================================================
+
+    // Walking, not manipulated by the arms
+    {
+        name: "Assistive products for walking, not manipulated by the arms",
+        category: "Mobility",
+        description: "Assistive products for walking that are not manipulated by the arms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 02",
+        keywords: ["walking", "prosthetic", "orthotic", "leg"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Walking, manipulated by one arm
     {
         name: "Walking stick (single point)",
         category: "Mobility",
         description: "Single point walking stick for balance and support during walking.",
-        riskLevel: "low-risk",
-        status: "included",
+        riskLevel: "prescribed",
+        status: "conditional",
         isoCode: "12 03 03",
-        keywords: ["walking", "stick", "cane", "balance"]
+        keywords: ["walking", "stick", "cane", "balance"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Elbow crutches",
+        category: "Mobility",
+        description: "Crutches with elbow support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 06",
+        keywords: ["crutch", "elbow", "walking", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Forearm crutches",
+        category: "Mobility",
+        description: "Crutches with forearm support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 09",
+        keywords: ["crutch", "forearm", "walking", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Axillary crutches",
+        category: "Mobility",
+        description: "Crutches with underarm support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 12",
+        keywords: ["crutch", "axillary", "underarm", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Multi-tip walking sticks",
+        category: "Mobility",
+        description: "Walking sticks with multiple tips for added stability.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 16",
+        keywords: ["walking", "stick", "multi-tip", "stability"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking sticks with seat",
+        category: "Mobility",
+        description: "Walking sticks that include a built-in seat for resting.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 18",
+        keywords: ["walking", "stick", "seat", "rest"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lateral support frames",
+        category: "Mobility",
+        description: "Frames providing lateral support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 21",
+        keywords: ["frame", "lateral", "support", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking sticks with wheels",
+        category: "Mobility",
+        description: "Walking sticks equipped with wheels for easier mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 24",
+        keywords: ["walking", "stick", "wheels", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
     },
     {
         name: "Quad stick (four point)",
@@ -336,6 +540,393 @@ const athmData = [
         keywords: ["walking", "frame", "forearm", "gutter"]
     },
     {
+        name: "Walking trolleys",
+        category: "Mobility",
+        description: "Wheeled trolleys that provide support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 07",
+        keywords: ["walking", "trolley", "wheels", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking chairs",
+        category: "Mobility",
+        description: "Chairs with wheels that allow mobility while seated.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 09",
+        keywords: ["walking", "chair", "seated", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking tables",
+        category: "Mobility",
+        description: "Tables with wheels that provide support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 12",
+        keywords: ["walking", "table", "support", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Powered rollators",
+        category: "Mobility",
+        description: "Rollators with powered assistance for easier mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 15",
+        keywords: ["rollator", "powered", "electric", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Accessories for assistive products for walking
+    {
+        name: "Tips for assistive products for walking",
+        category: "Mobility",
+        description: "Replacement tips for walking aids such as canes and crutches.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 05",
+        keywords: ["tips", "walking", "cane", "crutch", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Products to properly grip assistive products for walking",
+        category: "Mobility",
+        description: "Grip aids and covers for walking products.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 12",
+        keywords: ["grip", "handle", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for walking products to support specific body parts",
+        category: "Mobility",
+        description: "Accessories that provide support for specific body parts while using walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 15",
+        keywords: ["support", "body", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for walking products to protect from injury",
+        category: "Mobility",
+        description: "Protective accessories for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 18",
+        keywords: ["protection", "injury", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Seats for assistive products for walking",
+        category: "Mobility",
+        description: "Seat attachments for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 21",
+        keywords: ["seat", "walking", "rest", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories attached to walking products to hold or carry objects",
+        category: "Mobility",
+        description: "Baskets and carriers that attach to walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 24",
+        keywords: ["basket", "carrier", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Products to hold walking products in place when not in use",
+        category: "Mobility",
+        description: "Holders and stands for storing walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 27",
+        keywords: ["holder", "stand", "storage", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories to manoeuvre assistive products for walking",
+        category: "Mobility",
+        description: "Accessories that help users manoeuvre walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 30",
+        keywords: ["manoeuvre", "steering", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories to adjust height of rollators and walking frames",
+        category: "Mobility",
+        description: "Height adjustment accessories for rollators and walking frames.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 33",
+        keywords: ["height", "adjustment", "rollator", "frame"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lights and safety signalling devices for walking products",
+        category: "Mobility",
+        description: "Lights and reflectors for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 36",
+        keywords: ["light", "safety", "signal", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Tyres and wheels for assistive products for walking",
+        category: "Mobility",
+        description: "Replacement tyres and wheels for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 39",
+        keywords: ["tyres", "wheels", "walking", "replacement"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Power assist units for assistive products for walking",
+        category: "Mobility",
+        description: "Powered assistance units for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 42",
+        keywords: ["power assist", "electric", "walking", "motor"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Guide canes and symbol canes
+    {
+        name: "Guide canes",
+        category: "Mobility",
+        description: "Canes used for orientation and navigation by visually impaired persons.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 03",
+        keywords: ["guide", "cane", "blind", "orientation"]
+    },
+    {
+        name: "Symbol canes",
+        category: "Mobility",
+        description: "Canes used to indicate visual impairment to others.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 06",
+        keywords: ["symbol", "cane", "blind", "identification"]
+    },
+    {
+        name: "Accessories for guide canes and symbol canes",
+        category: "Mobility",
+        description: "Accessories for guide and symbol canes.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 09",
+        keywords: ["accessory", "guide cane", "symbol cane"]
+    },
+
+    // Vehicle accessories and adaptations
+    {
+        name: "Vehicle accessories to control speed",
+        category: "Mobility",
+        description: "Vehicle adaptations to assist with speed control.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 05",
+        keywords: ["vehicle", "speed", "control", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle accessories to operate steering system",
+        category: "Mobility",
+        description: "Vehicle adaptations for steering system operation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 07",
+        keywords: ["vehicle", "steering", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for complementary vehicle functions",
+        category: "Mobility",
+        description: "Adaptations for complementary functions necessary to operate vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 08",
+        keywords: ["vehicle", "function", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle occupant restraining systems",
+        category: "Mobility",
+        description: "Specialized restraint systems for vehicle occupants.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 09",
+        keywords: ["vehicle", "restraint", "seatbelt", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Seats and cushions for motor vehicles",
+        category: "Mobility",
+        description: "Specialized seats and cushions for use in motor vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 12",
+        keywords: ["vehicle", "seat", "cushion", "car"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories and adaptations for seating in vehicles",
+        category: "Mobility",
+        description: "Accessories related to seating in vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 15",
+        keywords: ["vehicle", "seating", "adaptation", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hoists to transfer person into or out of vehicles",
+        category: "Mobility",
+        description: "Hoists for transferring a person into or out of vehicles without wheelchair.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 18",
+        keywords: ["vehicle", "hoist", "transfer", "lift"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for transferring wheelchair user into/out of vehicles",
+        category: "Mobility",
+        description: "Products for transferring a person seated in a wheelchair into or out of vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 21",
+        keywords: ["vehicle", "wheelchair", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for loading wheelchairs onto vehicles",
+        category: "Mobility",
+        description: "Products for loading unoccupied wheelchairs onto or into vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 24",
+        keywords: ["vehicle", "wheelchair", "loading"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for fastening wheelchairs in vehicles",
+        category: "Mobility",
+        description: "Products for securing wheelchairs in vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 27",
+        keywords: ["vehicle", "wheelchair", "fastening", "securing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle chassis and body adaptations",
+        category: "Mobility",
+        description: "Adaptations to vehicle chassis and body.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 30",
+        keywords: ["vehicle", "chassis", "body", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Diverse motorised vehicles
+    {
+        name: "Diverse four-wheeled motorised vehicles",
+        category: "Mobility",
+        description: "Four-wheeled motorised vehicles for mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 17 09",
+        keywords: ["motorised", "vehicle", "four-wheeled", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Manual wheelchairs
+    {
+        name: "Bimanual handrim-drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by both hands using handrims.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 03",
+        keywords: ["wheelchair", "manual", "handrim", "bimanual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bimanual lever-drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by both hands using levers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 06",
+        keywords: ["wheelchair", "manual", "lever", "bimanual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Single-side manual drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs that can be propelled using one side only.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 09",
+        keywords: ["wheelchair", "manual", "single-side", "one-arm"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Handrim-activated power-assisted wheelchairs",
+        category: "Mobility",
+        description: "Manual wheelchairs with power assistance activated by handrims.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 12",
+        keywords: ["wheelchair", "power-assisted", "handrim"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Foot-propelled wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by the user's feet.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 15",
+        keywords: ["wheelchair", "foot-propelled", "manual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Push wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs designed to be pushed by an attendant.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 18",
+        keywords: ["wheelchair", "push", "attendant"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Power-assisted push wheelchairs",
+        category: "Mobility",
+        description: "Push wheelchairs with power assistance for the attendant.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 21",
+        keywords: ["wheelchair", "push", "power-assisted"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
         name: "Manual wheelchair (basic)",
         category: "Mobility",
         description: "Basic self-propelled or attendant-propelled wheelchair.",
@@ -363,6 +954,138 @@ const athmData = [
         isoCode: "12 23 03",
         keywords: ["wheelchair", "power", "electric", "motorized"],
         conditions: "Requires comprehensive assessment demonstrating inability to use manual wheelchair"
+    },
+    {
+        name: "Electrically powered wheelchairs with electronic steering",
+        category: "Mobility",
+        description: "Power wheelchairs with electronic steering systems.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 06",
+        keywords: ["wheelchair", "power", "electronic", "steering"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistant-controlled electrically powered wheelchairs",
+        category: "Mobility",
+        description: "Power wheelchairs controlled by an assistant rather than the user.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 12",
+        keywords: ["wheelchair", "power", "assistant", "controlled"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stair-climbing powered wheelchairs",
+        category: "Mobility",
+        description: "Powered wheelchairs capable of climbing stairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 15",
+        keywords: ["wheelchair", "power", "stair-climbing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Self-balancing wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs that self-balance using gyroscopic technology.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 18",
+        keywords: ["wheelchair", "self-balancing", "gyroscopic"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Additional wheelchair accessories
+    {
+        name: "Steering and control systems for wheelchairs",
+        category: "Mobility",
+        description: "Steering and control system accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 03",
+        keywords: ["wheelchair", "steering", "control", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Propulsion units for manual wheelchairs",
+        category: "Mobility",
+        description: "Add-on propulsion units for manual wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 09",
+        keywords: ["wheelchair", "propulsion", "add-on", "power"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Half-hand bikes",
+        category: "Mobility",
+        description: "Attachable hand-cycling units for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 11",
+        keywords: ["wheelchair", "handcycle", "half-hand", "bike"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lights and safety signalling devices for wheelchairs",
+        category: "Mobility",
+        description: "Lights and reflectors for wheelchair safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 12",
+        keywords: ["wheelchair", "lights", "safety", "signalling"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Running or parking brakes for wheelchairs",
+        category: "Mobility",
+        description: "Brake systems for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 18",
+        keywords: ["wheelchair", "brakes", "parking", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Tyres, wheels and castors for wheelchairs",
+        category: "Mobility",
+        description: "Replacement tyres, wheels and castors for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 21",
+        keywords: ["wheelchair", "tyres", "wheels", "castors"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Batteries and battery chargers for wheelchairs",
+        category: "Mobility",
+        description: "Batteries and charging equipment for powered wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 24",
+        keywords: ["wheelchair", "battery", "charger", "power"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices for cleaning wheelchairs",
+        category: "Mobility",
+        description: "Devices for cleaning wheelchairs or parts of wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 28",
+        keywords: ["wheelchair", "cleaning", "maintenance"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices to protect wheelchairs from sunlight or precipitation",
+        category: "Mobility",
+        description: "Canopies and covers to protect wheelchairs and occupants.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 34",
+        keywords: ["wheelchair", "canopy", "cover", "protection"],
+        conditions: "Requires prescription from qualified health professional"
     },
     {
         name: "Wheelchair cushion (basic)",
@@ -2188,6 +2911,688 @@ const athmData = [
         isoCode: "18 12 24",
         keywords: ["back support", "leg support", "bed", "adjustable"],
         conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Time, Memory and Planning (ISO 22 28)
+    {
+        name: "Calendars",
+        category: "Communication and Information",
+        description: "Calendars designed to assist with time management and planning.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 03",
+        keywords: ["calendar", "date", "planning", "schedule", "time"]
+    },
+    {
+        name: "Diaries and organisers",
+        category: "Communication and Information",
+        description: "Diaries and organisers to assist with planning and memory.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 06",
+        keywords: ["diary", "organiser", "planner", "schedule", "memory"]
+    },
+    {
+        name: "Time management products",
+        category: "Communication and Information",
+        description: "Products to assist with managing and tracking time.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 09",
+        keywords: ["time", "management", "timer", "clock", "schedule"]
+    },
+    {
+        name: "Manually operated timers",
+        category: "Communication and Information",
+        description: "Manual timers to assist with time management and task scheduling.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 12",
+        keywords: ["timer", "manual", "countdown", "time", "alarm"]
+    },
+    {
+        name: "Electronic timers and organisers",
+        category: "Communication and Information",
+        description: "Electronic devices for timing and organisation assistance.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 15",
+        keywords: ["timer", "electronic", "organiser", "digital", "alarm"]
+    },
+
+    // Arm and Hand Function (ISO 24 18)
+    {
+        name: "Arm supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with arm function and positioning.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 03",
+        keywords: ["arm", "support", "positioning", "function"]
+    },
+    {
+        name: "Hand and finger supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with hand and finger function.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 06",
+        keywords: ["hand", "finger", "support", "grip", "function"]
+    },
+    {
+        name: "Wrist supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with wrist function and stability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 09",
+        keywords: ["wrist", "support", "stability", "function"]
+    },
+    {
+        name: "Assistive products for grasping",
+        category: "Personal Care and Protection",
+        description: "Products to assist with gripping and grasping objects.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 18 12",
+        keywords: ["grasp", "grip", "hold", "reach", "picker"]
+    },
+    {
+        name: "Reachers and reaching aids",
+        category: "Personal Care and Protection",
+        description: "Long-handled reaching devices to assist with picking up objects.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 18 15",
+        keywords: ["reacher", "reaching", "grabber", "picker", "extend"]
+    },
+
+    // Clothes and Shoes (ISO 09 03)
+    {
+        name: "Coats, capes, cloaks",
+        category: "Personal Care and Protection",
+        description: "Adapted outerwear including coats, capes, and cloaks.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 03",
+        keywords: ["coat", "cape", "cloak", "outerwear", "clothing"]
+    },
+    {
+        name: "Trousers and shorts",
+        category: "Personal Care and Protection",
+        description: "Adapted trousers and shorts for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 04",
+        keywords: ["trousers", "shorts", "pants", "clothing", "adapted"]
+    },
+    {
+        name: "Shirts and blouses",
+        category: "Personal Care and Protection",
+        description: "Adapted shirts and blouses for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 06",
+        keywords: ["shirt", "blouse", "top", "clothing", "adapted"]
+    },
+    {
+        name: "Skirts",
+        category: "Personal Care and Protection",
+        description: "Adapted skirts for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 07",
+        keywords: ["skirt", "clothing", "adapted", "dress"]
+    },
+    {
+        name: "Dresses",
+        category: "Personal Care and Protection",
+        description: "Adapted dresses for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 09",
+        keywords: ["dress", "clothing", "adapted", "garment"]
+    },
+    {
+        name: "Underwear",
+        category: "Personal Care and Protection",
+        description: "Adapted underwear for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 12",
+        keywords: ["underwear", "undergarment", "clothing", "adapted"]
+    },
+    {
+        name: "Socks and stockings",
+        category: "Personal Care and Protection",
+        description: "Adapted socks and stockings for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 15",
+        keywords: ["socks", "stockings", "hosiery", "clothing", "adapted"]
+    },
+    {
+        name: "Shoes and boots",
+        category: "Personal Care and Protection",
+        description: "Adapted shoes and boots for people with disability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 03 18",
+        keywords: ["shoes", "boots", "footwear", "adapted"]
+    },
+    {
+        name: "Shoe adaptations",
+        category: "Personal Care and Protection",
+        description: "Adaptations and modifications for shoes.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 03 21",
+        keywords: ["shoe", "adaptation", "modification", "footwear"]
+    },
+
+    // Body Protection (ISO 09 06-07)
+    {
+        name: "Protective clothing worn on the upper part of the body",
+        category: "Personal Care and Protection",
+        description: "Protective garments worn on the upper body.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 03",
+        keywords: ["protective", "clothing", "upper body", "garment"]
+    },
+    {
+        name: "Protective clothing worn on the lower part of the body",
+        category: "Personal Care and Protection",
+        description: "Protective garments worn on the lower body.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 06",
+        keywords: ["protective", "clothing", "lower body", "garment"]
+    },
+    {
+        name: "Protective clothing worn on the whole body",
+        category: "Personal Care and Protection",
+        description: "Full body protective garments.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 09",
+        keywords: ["protective", "clothing", "full body", "garment", "suit"]
+    },
+    {
+        name: "Safety helmets",
+        category: "Personal Care and Protection",
+        description: "Helmets for head protection.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 12",
+        keywords: ["helmet", "safety", "head", "protection"]
+    },
+    {
+        name: "Protective eyewear",
+        category: "Personal Care and Protection",
+        description: "Protective glasses and goggles.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 06 15",
+        keywords: ["eyewear", "glasses", "goggles", "protection", "eyes"]
+    },
+    {
+        name: "Gloves and mittens",
+        category: "Personal Care and Protection",
+        description: "Protective gloves and mittens.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 06 18",
+        keywords: ["gloves", "mittens", "hand", "protection"]
+    },
+    {
+        name: "Elbow and forearm protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for elbows and forearms.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 03",
+        keywords: ["elbow", "forearm", "protection", "pad"]
+    },
+    {
+        name: "Knee protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for knees.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 06",
+        keywords: ["knee", "protection", "pad", "guard"]
+    },
+    {
+        name: "Hip protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for hips to prevent injury from falls.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 09",
+        keywords: ["hip", "protection", "pad", "fall", "injury"]
+    },
+
+    // Dressing and Undressing (ISO 09 09)
+    {
+        name: "Button and zipper hooks",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with fastening buttons and zippers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 03",
+        keywords: ["button", "zipper", "hook", "fastener", "dressing"]
+    },
+    {
+        name: "Shoelace fasteners",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with tying or replacing shoelaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 06",
+        keywords: ["shoelace", "fastener", "elastic", "lace", "shoe"]
+    },
+    {
+        name: "Shoehorns",
+        category: "Personal Care and Protection",
+        description: "Long-handled or adapted shoehorns to assist with putting on shoes.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 09",
+        keywords: ["shoehorn", "shoe", "dressing", "aid"]
+    },
+    {
+        name: "Dressing sticks",
+        category: "Personal Care and Protection",
+        description: "Sticks to assist with pulling on and pushing off clothing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 12",
+        keywords: ["dressing", "stick", "clothing", "aid", "reach"]
+    },
+    {
+        name: "Sock and stocking aids",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with putting on socks and stockings.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 15",
+        keywords: ["sock", "stocking", "aid", "dressing", "donner"]
+    },
+    {
+        name: "Tights and pantyhose aids",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with putting on tights and pantyhose.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 18",
+        keywords: ["tights", "pantyhose", "aid", "dressing", "hosiery"]
+    },
+
+    // Toileting (ISO 09 12)
+    {
+        name: "Raised toilet seats",
+        category: "Personal Care and Protection",
+        description: "Seats that raise the height of the toilet for easier transfers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 03",
+        keywords: ["toilet", "seat", "raised", "height", "transfer"]
+    },
+    {
+        name: "Toilet seats with built-in raising mechanism",
+        category: "Personal Care and Protection",
+        description: "Toilet seats with powered or mechanical raising mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12 06",
+        keywords: ["toilet", "seat", "raising", "mechanism", "lift"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Toilet seat inserts and reducers",
+        category: "Personal Care and Protection",
+        description: "Inserts and reducers to modify toilet seat size.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 09",
+        keywords: ["toilet", "seat", "insert", "reducer", "child"]
+    },
+    {
+        name: "Toilet armrests and backrests mounted on the toilet",
+        category: "Personal Care and Protection",
+        description: "Armrests and backrests that attach to the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 12",
+        keywords: ["toilet", "armrest", "backrest", "support", "mounted"]
+    },
+    {
+        name: "Free-standing toilet armrests and supports",
+        category: "Personal Care and Protection",
+        description: "Free-standing frames providing armrests and support around the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 15",
+        keywords: ["toilet", "frame", "armrest", "support", "freestanding"]
+    },
+    {
+        name: "Wall-mounted toilet armrests and supports",
+        category: "Personal Care and Protection",
+        description: "Armrests and supports mounted to the wall beside the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 18",
+        keywords: ["toilet", "armrest", "support", "wall", "mounted"]
+    },
+    {
+        name: "Commode chairs without wheels",
+        category: "Personal Care and Protection",
+        description: "Portable toileting chairs without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 21",
+        keywords: ["commode", "chair", "toilet", "portable"]
+    },
+    {
+        name: "Commode chairs with wheels",
+        category: "Personal Care and Protection",
+        description: "Mobile toileting chairs with wheels for transport.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 24",
+        keywords: ["commode", "chair", "wheels", "mobile", "toilet"]
+    },
+    {
+        name: "Bedpans and urinals",
+        category: "Personal Care and Protection",
+        description: "Containers for toileting while in bed.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 27",
+        keywords: ["bedpan", "urinal", "bed", "toilet", "container"]
+    },
+    {
+        name: "Assistive products for holding toilet paper",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with holding and using toilet paper.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 33",
+        keywords: ["toilet paper", "holder", "wiper", "hygiene"]
+    },
+    {
+        name: "Bidets",
+        category: "Personal Care and Protection",
+        description: "Bidets for personal hygiene after toileting.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 36",
+        keywords: ["bidet", "wash", "hygiene", "toilet"]
+    },
+
+    // Collecting Urine (ISO 09 27)
+    {
+        name: "Male body-worn urine collection devices",
+        category: "Personal Care and Protection",
+        description: "Urine collection devices designed to be worn by males.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 03",
+        keywords: ["urine", "collection", "male", "body-worn", "continence"]
+    },
+    {
+        name: "Female body-worn urine collection devices",
+        category: "Personal Care and Protection",
+        description: "Urine collection devices designed to be worn by females.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 06",
+        keywords: ["urine", "collection", "female", "body-worn", "continence"]
+    },
+    {
+        name: "Urine drainage bags",
+        category: "Personal Care and Protection",
+        description: "Bags for collecting and draining urine.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 09",
+        keywords: ["urine", "drainage", "bag", "collection", "catheter"]
+    },
+    {
+        name: "Catheters",
+        category: "Personal Care and Protection",
+        description: "Tubes for draining urine from the bladder.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 27 12",
+        keywords: ["catheter", "urine", "bladder", "drainage"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Urine collection bottles and containers",
+        category: "Personal Care and Protection",
+        description: "Bottles and containers for collecting urine.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 27 15",
+        keywords: ["urine", "bottle", "container", "collection"]
+    },
+
+    // Collecting Faeces (ISO 09 30)
+    {
+        name: "Ostomy bags for faeces",
+        category: "Personal Care and Protection",
+        description: "Bags for collecting faeces from an ostomy.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 30 04",
+        keywords: ["ostomy", "bag", "faeces", "stoma", "colostomy"]
+    },
+    {
+        name: "Ostomy baseplates and seals",
+        category: "Personal Care and Protection",
+        description: "Baseplates and seals for ostomy appliances.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 30 08",
+        keywords: ["ostomy", "baseplate", "seal", "stoma", "appliance"]
+    },
+    {
+        name: "Ostomy plugs and irrigation systems",
+        category: "Personal Care and Protection",
+        description: "Plugs and irrigation systems for ostomy management.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 30 12",
+        keywords: ["ostomy", "plug", "irrigation", "stoma", "management"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Absorbing Urine and Faeces (ISO 09 31)
+    {
+        name: "Disposable incontinence pads",
+        category: "Personal Care and Protection",
+        description: "Single-use absorbent pads for incontinence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 03",
+        keywords: ["incontinence", "pad", "disposable", "absorbent", "continence"]
+    },
+    {
+        name: "Reusable incontinence pads",
+        category: "Personal Care and Protection",
+        description: "Washable, reusable absorbent pads for incontinence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 06",
+        keywords: ["incontinence", "pad", "reusable", "washable", "continence"]
+    },
+    {
+        name: "Disposable incontinence pants",
+        category: "Personal Care and Protection",
+        description: "Single-use pull-up style incontinence garments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 09",
+        keywords: ["incontinence", "pants", "disposable", "pull-up", "continence"]
+    },
+    {
+        name: "Reusable incontinence pants",
+        category: "Personal Care and Protection",
+        description: "Washable, reusable incontinence garments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 12",
+        keywords: ["incontinence", "pants", "reusable", "washable", "continence"]
+    },
+    {
+        name: "Incontinence bedding protection",
+        category: "Personal Care and Protection",
+        description: "Protective sheets and pads for bedding.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 15",
+        keywords: ["incontinence", "bedding", "sheet", "protection", "mattress"]
+    },
+    {
+        name: "Incontinence chair protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads and covers for chairs and seating.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 18",
+        keywords: ["incontinence", "chair", "protection", "pad", "seating"]
+    },
+
+    // Washing, Bathing, Showering (ISO 09 33)
+    {
+        name: "Bath boards",
+        category: "Personal Care and Protection",
+        description: "Boards that fit across the bath to sit on while bathing.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 03",
+        keywords: ["bath", "board", "seat", "bathing", "transfer"]
+    },
+    {
+        name: "Bath seats without suction cups",
+        category: "Personal Care and Protection",
+        description: "Seats for use in the bath without suction cup attachment.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 04",
+        keywords: ["bath", "seat", "bathing", "chair"]
+    },
+    {
+        name: "Bath seats with suction cups",
+        category: "Personal Care and Protection",
+        description: "Seats for use in the bath with suction cup attachment for stability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 05",
+        keywords: ["bath", "seat", "suction", "bathing", "stable"]
+    },
+    {
+        name: "Free-standing shower chairs without wheels",
+        category: "Personal Care and Protection",
+        description: "Shower chairs that stand freely without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 06",
+        keywords: ["shower", "chair", "freestanding", "bathing"]
+    },
+    {
+        name: "Wall-fixed shower seats",
+        category: "Personal Care and Protection",
+        description: "Shower seats that are fixed to the wall.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 07",
+        keywords: ["shower", "seat", "wall", "fixed", "fold"]
+    },
+    {
+        name: "Free-standing shower stools without wheels",
+        category: "Personal Care and Protection",
+        description: "Shower stools that stand freely without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 08",
+        keywords: ["shower", "stool", "freestanding", "bathing"]
+    },
+    {
+        name: "Shower chairs with wheels",
+        category: "Personal Care and Protection",
+        description: "Mobile shower chairs with wheels for transport.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 09",
+        keywords: ["shower", "chair", "wheels", "mobile", "commode"]
+    },
+    {
+        name: "Shower stretchers",
+        category: "Personal Care and Protection",
+        description: "Stretchers for showering in a lying position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33 12",
+        keywords: ["shower", "stretcher", "trolley", "lying", "bathing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Transfer platforms for bathing",
+        category: "Personal Care and Protection",
+        description: "Platforms to assist with transfers in and out of the bath.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 15",
+        keywords: ["transfer", "platform", "bath", "bathing", "step"]
+    },
+    {
+        name: "Bath lifts",
+        category: "Personal Care and Protection",
+        description: "Powered lifts to lower and raise a person in the bath.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33 18",
+        keywords: ["bath", "lift", "powered", "lower", "raise"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Non-slip mats and strips for bathrooms",
+        category: "Personal Care and Protection",
+        description: "Non-slip surfaces for use in bathrooms to prevent falls.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 21",
+        keywords: ["non-slip", "mat", "strip", "bathroom", "safety", "fall"]
+    },
+    {
+        name: "Long-handled washing equipment",
+        category: "Personal Care and Protection",
+        description: "Long-handled sponges, brushes, and washing aids.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 24",
+        keywords: ["washing", "long-handled", "sponge", "brush", "bathing"]
+    },
+    {
+        name: "Wash mitts",
+        category: "Personal Care and Protection",
+        description: "Mitts for washing when grip is difficult.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 27",
+        keywords: ["wash", "mitt", "bathing", "grip", "hand"]
+    },
+    {
+        name: "Drying equipment",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with drying after bathing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 30",
+        keywords: ["drying", "towel", "bathing", "dry", "equipment"]
     }
 ];
 
