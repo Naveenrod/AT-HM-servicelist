@@ -4502,6 +4502,980 @@ const athmData = [
     },
 
     // =====================================================
+    // COMMUNICATION - READING AND WRITING (ISO 22 13)
+    // =====================================================
+    {
+        name: "Signature guides, stamps and writing frames",
+        category: "Communication and Information",
+        description: "Guides and frames to assist with writing signatures and text.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 13 09",
+        keywords: ["signature", "guide", "stamp", "writing", "frame"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Text-to-speech devices and software",
+        category: "Communication and Information",
+        description: "Devices and software that convert text to spoken audio.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 13 15",
+        keywords: ["text-to-speech", "TTS", "speech", "reading", "audio"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "OCR equipment and OCR software",
+        category: "Communication and Information",
+        description: "Optical character recognition equipment and software for reading printed text.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 13 18",
+        keywords: ["OCR", "optical character recognition", "scanning", "reading"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "DAISY players and e-book readers",
+        category: "Communication and Information",
+        description: "Digital accessible information system players and electronic book readers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 13 21",
+        keywords: ["DAISY", "e-book", "reader", "digital", "accessible"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // FACE-TO-FACE COMMUNICATIONS (ISO 22 21)
+    // =====================================================
+    {
+        name: "Letter and symbol sets and boards",
+        category: "Communication and Information",
+        description: "Communication boards with letters and symbols for face-to-face communication.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 21 03",
+        keywords: ["letter board", "symbol board", "AAC", "communication"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Dialogue units",
+        category: "Communication and Information",
+        description: "Electronic devices for facilitating dialogue and conversation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 21 09",
+        keywords: ["dialogue", "conversation", "communication", "AAC"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Face-to-face communication software",
+        category: "Communication and Information",
+        description: "Software applications for face-to-face communication support.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 21 12",
+        keywords: ["communication", "software", "AAC", "face-to-face"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // DISTANT COMMUNICATIONS (ISO 22 24)
+    // =====================================================
+    {
+        name: "Multifunctional communication systems",
+        category: "Communication and Information",
+        description: "Systems that combine multiple communication functions.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 24 04",
+        keywords: ["multifunctional", "communication", "system"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for assistive products for distant communication",
+        category: "Communication and Information",
+        description: "Accessories to support distant communication devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 24 21",
+        keywords: ["accessories", "distant", "communication", "telephone"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Software for distant communication",
+        category: "Communication and Information",
+        description: "Software applications for distant communication.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 24 24",
+        keywords: ["software", "distant", "communication", "video call"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // SIGNALLING, ALARMING AND LOCALISATION (ISO 22 29)
+    // =====================================================
+    {
+        name: "Signalling devices",
+        category: "Communication and Information",
+        description: "Devices for signalling and alerting.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 29 03",
+        keywords: ["signalling", "alert", "notification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Personal emergency alarm systems",
+        category: "Communication and Information",
+        description: "Personal alarm systems for emergency situations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 29 06",
+        keywords: ["personal alarm", "emergency", "PERS", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Environmental emergency alarm systems",
+        category: "Communication and Information",
+        description: "Alarm systems for detecting environmental emergencies like fire or gas.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 29 09",
+        keywords: ["environmental", "alarm", "fire", "smoke", "gas"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Localising and tracking systems",
+        category: "Communication and Information",
+        description: "Systems for locating and tracking individuals.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 29 12",
+        keywords: ["GPS", "tracking", "locating", "wandering"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Marking materials and marking tools",
+        category: "Communication and Information",
+        description: "Materials and tools for marking and identification.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 29 15",
+        keywords: ["marking", "identification", "labels"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // OUTPUT DEVICES (ISO 22 39)
+    // =====================================================
+    {
+        name: "Visual displays",
+        category: "Communication and Information",
+        description: "Display devices for visual output.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 39 04",
+        keywords: ["display", "visual", "monitor", "screen"]
+    },
+    {
+        name: "Tactile displays",
+        category: "Communication and Information",
+        description: "Display devices providing tactile output such as braille displays.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 39 05",
+        keywords: ["tactile", "braille", "display", "touch"]
+    },
+
+    // =====================================================
+    // ORIENTATION (ISO 22 45)
+    // =====================================================
+    {
+        name: "Tactile orientation materials",
+        category: "Communication and Information",
+        description: "Tactile materials to assist with orientation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 45 12",
+        keywords: ["tactile", "orientation", "navigation", "wayfinding"]
+    },
+    {
+        name: "Visual orientation materials",
+        category: "Communication and Information",
+        description: "Visual materials to assist with orientation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 45 15",
+        keywords: ["visual", "orientation", "navigation", "wayfinding"]
+    },
+
+    // =====================================================
+    // ELECTRONIC ASSISTIVE PRODUCTS FOR OPERATION AND CONTROLLING DEVICES (ISO 24 13)
+    // =====================================================
+    {
+        name: "Switches for electrical devices",
+        category: "Operation and Control",
+        description: "Assistive switches for operating electrical devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13 09",
+        keywords: ["switch", "electrical", "control", "access"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Keyboards",
+        category: "Operation and Control",
+        description: "Assistive keyboards for computer input.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13 18",
+        keywords: ["keyboard", "computer", "input", "typing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Computer pointing devices",
+        category: "Operation and Control",
+        description: "Assistive pointing devices such as mice, trackballs, and head pointers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13 21",
+        keywords: ["mouse", "trackball", "pointing", "computer", "input"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // PLAY - ADAPTATIVE PRODUCTS FOR SOCIAL INTERACTION (ISO 30 03)
+    // =====================================================
+    {
+        name: "Games (products designed to enable a person to engage in recreational activities)",
+        category: "Recreation",
+        description: "Adaptive games and products designed to enable participation in recreational activities and social interaction.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 03 09",
+        keywords: ["games", "recreation", "play", "social", "adaptive"],
+        conditions: "Available where used to enable a person to engage in social activities"
+    },
+
+    // =====================================================
+    // HOME MODIFICATIONS (ISO 18)
+    // =====================================================
+
+    // Toileting (ISO 09 12) - Home Modifications
+    {
+        name: "Toilets (home modification)",
+        category: "Home Modifications",
+        description: "Toilet installations as part of home modifications.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12",
+        keywords: ["toilet", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Toilet roll holders (home modification)",
+        category: "Home Modifications",
+        description: "Accessible toilet roll holder installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12",
+        keywords: ["toilet roll", "holder", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wall-mounted urinals",
+        category: "Home Modifications",
+        description: "Wall-mounted urinal installations for accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12",
+        keywords: ["urinal", "wall-mounted", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Douches and air dryers for attachment to a toilet",
+        category: "Home Modifications",
+        description: "Bidet functions and air dryers attached to toilets.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12",
+        keywords: ["douche", "bidet", "air dryer", "toilet", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Transportable hygiene rooms",
+        category: "Home Modifications",
+        description: "Portable or transportable bathroom facilities.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12",
+        keywords: ["transportable", "hygiene", "bathroom", "portable"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Collecting urine and faeces (ISO 09 27) - Home Modifications
+    {
+        name: "Automatic toileting systems for collecting urine and faeces",
+        category: "Home Modifications",
+        description: "Automated systems for toileting and waste collection.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 27",
+        keywords: ["automatic", "toileting", "system", "waste"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Washing, bathing and showering (ISO 09 33) - Home Modifications
+    {
+        name: "Showers and shower units (home modification)",
+        category: "Home Modifications",
+        description: "Shower installations as part of home modifications.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33",
+        keywords: ["shower", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wash basins (home modification)",
+        category: "Home Modifications",
+        description: "Accessible wash basin installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33",
+        keywords: ["wash basin", "sink", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bidets (home modification)",
+        category: "Home Modifications",
+        description: "Bidet installations for accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33",
+        keywords: ["bidet", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bathtubs (home modification)",
+        category: "Home Modifications",
+        description: "Accessible bathtub installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33",
+        keywords: ["bathtub", "bath", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Soap holders and soap dispensers (home modification)",
+        category: "Home Modifications",
+        description: "Accessible soap holder and dispenser installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33",
+        keywords: ["soap", "holder", "dispenser", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Dishwashing (ISO 15 06) - Home Modifications
+    {
+        name: "Sinks (home modification)",
+        category: "Home Modifications",
+        description: "Accessible sink installations in kitchens.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "15 06",
+        keywords: ["sink", "kitchen", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Light fixtures (ISO 18 06)
+    {
+        name: "General lights (home modification)",
+        category: "Home Modifications",
+        description: "General lighting installations for accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 06",
+        keywords: ["light", "lighting", "general", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Reading lights and working lights (home modification)",
+        category: "Home Modifications",
+        description: "Task lighting installations for reading and work.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 06",
+        keywords: ["reading light", "task light", "work light", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Supporting handrails and grab bars (ISO 18 18)
+    {
+        name: "Handrails and support rails",
+        category: "Home Modifications",
+        description: "Fixed handrails and support rails for stability and safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 18",
+        keywords: ["handrail", "support rail", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Fixed grab bars and handgrips",
+        category: "Home Modifications",
+        description: "Permanently installed grab bars and handgrips.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 18",
+        keywords: ["grab bar", "handgrip", "fixed", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Removable grab rails and handgrips",
+        category: "Home Modifications",
+        description: "Removable grab rails and handgrips for flexibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 18",
+        keywords: ["grab rail", "removable", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hinged rails and arm supports",
+        category: "Home Modifications",
+        description: "Hinged and fold-down rails and arm supports.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 18",
+        keywords: ["hinged rail", "arm support", "fold-down", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Gate, door, window and curtain openers/closers (ISO 18 21)
+    {
+        name: "Door openers and door closers",
+        category: "Home Modifications",
+        description: "Automated or assisted door opening and closing mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 21",
+        keywords: ["door", "opener", "closer", "automatic", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Window openers and window closers",
+        category: "Home Modifications",
+        description: "Automated or assisted window opening and closing mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 21",
+        keywords: ["window", "opener", "closer", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Curtain openers and curtain closers",
+        category: "Home Modifications",
+        description: "Automated or assisted curtain opening and closing mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 21",
+        keywords: ["curtain", "opener", "closer", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Sunblind openers and sunblind closers",
+        category: "Home Modifications",
+        description: "Automated or assisted sunblind opening and closing mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 21",
+        keywords: ["sunblind", "blind", "opener", "closer", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Locks (home modification)",
+        category: "Home Modifications",
+        description: "Accessible lock mechanisms for doors and windows.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 21",
+        keywords: ["lock", "door", "window", "security", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Construction elements in homes (ISO 18 24)
+    {
+        name: "Plumbing fittings and taps",
+        category: "Home Modifications",
+        description: "Accessible plumbing fittings and tap installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["plumbing", "tap", "faucet", "fitting", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Windows (home modification)",
+        category: "Home Modifications",
+        description: "Accessible window installations or modifications.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["window", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Thresholds",
+        category: "Home Modifications",
+        description: "Threshold modifications for accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["threshold", "doorway", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Floor coverings (home modification)",
+        category: "Home Modifications",
+        description: "Accessible floor covering installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["floor", "covering", "flooring", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stairs (home modification)",
+        category: "Home Modifications",
+        description: "Stair modifications for accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["stairs", "steps", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Counter tops",
+        category: "Home Modifications",
+        description: "Accessible counter top installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 24",
+        keywords: ["counter", "bench", "kitchen", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Vertical accessibility (ISO 18 30)
+    {
+        name: "Elevators (home modification)",
+        category: "Home Modifications",
+        description: "Residential elevator installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["elevator", "lift", "vertical", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Fixed lifting platforms",
+        category: "Home Modifications",
+        description: "Permanently installed lifting platforms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["lifting platform", "fixed", "vertical", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Free-standing lifting platforms",
+        category: "Home Modifications",
+        description: "Self-supporting lifting platform installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["lifting platform", "free-standing", "vertical", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Portable lifting platforms",
+        category: "Home Modifications",
+        description: "Portable lifting platform devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["lifting platform", "portable", "vertical", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stairlifts with seat",
+        category: "Home Modifications",
+        description: "Stairlifts with seated position for users.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["stairlift", "seat", "stairs", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stairlifts with platform",
+        category: "Home Modifications",
+        description: "Stairlifts with platform for wheelchair users.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["stairlift", "platform", "wheelchair", "stairs", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Fixed ramps",
+        category: "Home Modifications",
+        description: "Permanently installed access ramps.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["ramp", "fixed", "access", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Ladders and step ladders (home modification)",
+        category: "Home Modifications",
+        description: "Accessible ladder and step ladder installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30",
+        keywords: ["ladder", "step ladder", "access", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Safety equipment for homes and other premises (ISO 18 33)
+    {
+        name: "Non-slip materials for floor and stairs",
+        category: "Home Modifications",
+        description: "Non-slip surfaces and materials for safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["non-slip", "floor", "stairs", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Safety mats to prevent injuries",
+        category: "Home Modifications",
+        description: "Protective matting to prevent fall injuries.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["safety mat", "fall prevention", "injury", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Safety barriers, fences and gates for windows, staircases and lifts",
+        category: "Home Modifications",
+        description: "Protective barriers and gates for safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["safety barrier", "fence", "gate", "window", "stairs", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Safety valves for gas supplies",
+        category: "Home Modifications",
+        description: "Safety shut-off valves for gas systems.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["safety valve", "gas", "shut-off", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for the indoor environment to prevent burns and accidental fires",
+        category: "Home Modifications",
+        description: "Safety products to prevent burns and fires in the home.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["fire safety", "burn prevention", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Rescue equipment",
+        category: "Home Modifications",
+        description: "Emergency rescue equipment for the home.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["rescue", "emergency", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Fire-resistant floor coverings",
+        category: "Home Modifications",
+        description: "Fire-resistant flooring materials for safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 33",
+        keywords: ["fire-resistant", "floor", "safety", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Furniture for storage (ISO 18 36)
+    {
+        name: "Shelves (bathroom/kitchen)",
+        category: "Home Modifications",
+        description: "Accessible shelf installations in bathrooms or kitchens.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 36",
+        keywords: ["shelf", "storage", "bathroom", "kitchen", "home modification"],
+        conditions: "Requires prescription from qualified health professional. Must be in bathrooms or kitchens."
+    },
+    {
+        name: "Cupboards (bathroom/kitchen)",
+        category: "Home Modifications",
+        description: "Accessible cupboard installations in bathrooms or kitchens.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 36",
+        keywords: ["cupboard", "cabinet", "storage", "bathroom", "kitchen", "home modification"],
+        conditions: "Requires prescription from qualified health professional. Must be in bathrooms or kitchens."
+    },
+    {
+        name: "Medicine cabinets",
+        category: "Home Modifications",
+        description: "Accessible medicine cabinet installations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 36",
+        keywords: ["medicine cabinet", "storage", "bathroom", "home modification"],
+        conditions: "Requires prescription from qualified health professional. Must be in bathrooms or kitchens."
+    },
+    {
+        name: "Fittings for shelves, cupboards and cabinets",
+        category: "Home Modifications",
+        description: "Hardware and fittings for accessible storage.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 36",
+        keywords: ["fittings", "hardware", "shelf", "cupboard", "home modification"],
+        conditions: "Requires prescription from qualified health professional. Must be in bathrooms or kitchens."
+    },
+
+    // Mechanical assistive products for operation and controlling devices (ISO 24 09)
+    {
+        name: "Push-buttons (home modification)",
+        category: "Home Modifications",
+        description: "Accessible push-button controls.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 09",
+        keywords: ["push-button", "control", "switch", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Fixed handles and knobs",
+        category: "Home Modifications",
+        description: "Accessible fixed handles and knobs for doors and cabinets.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 09",
+        keywords: ["handle", "knob", "fixed", "door", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Rotating handles and knobs",
+        category: "Home Modifications",
+        description: "Accessible rotating handles and knobs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 09",
+        keywords: ["handle", "knob", "rotating", "lever", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Electronic assistive products for operation and controlling devices (ISO 24 13) - Home Modifications
+    {
+        name: "Wired remote controls (home modification)",
+        category: "Home Modifications",
+        description: "Wired remote control systems for home devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13",
+        keywords: ["remote control", "wired", "control", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wireless remote controls (home modification)",
+        category: "Home Modifications",
+        description: "Wireless remote control systems for home devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13",
+        keywords: ["remote control", "wireless", "control", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Software for operating electrical devices (home modification)",
+        category: "Home Modifications",
+        description: "Software for controlling home electrical systems.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13",
+        keywords: ["software", "electrical", "control", "smart home", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for products for operating and controlling electrical devices",
+        category: "Home Modifications",
+        description: "Accessories for electronic control systems.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "24 13",
+        keywords: ["accessories", "electrical", "control", "home modification"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // CONDITIONAL INCLUSIONS
+    // =====================================================
+
+    // Making and maintaining textiles for domestic use (ISO 15 15) - Conditional
+    {
+        name: "Washing machines (conditional)",
+        category: "Domestic Life",
+        description: "Washing machines for domestic use.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "15 15 33",
+        keywords: ["washing machine", "laundry", "domestic"],
+        conditions: "May be prescribed if evidence is provided to support an assessed need, such as ongoing and severe incontinence unable to be managed"
+    },
+    {
+        name: "Assistive products for drying clothes - tumble dryers and spin dryers",
+        category: "Domestic Life",
+        description: "Tumble dryers and spin dryers for domestic use.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "15 15 43",
+        keywords: ["tumble dryer", "spin dryer", "laundry", "domestic"],
+        conditions: "May be prescribed if evidence is provided to support an assessed need, such as ongoing and severe incontinence unable to be managed"
+    },
+
+    // Environmental impact (ISO 27 03) - Conditional
+    {
+        name: "Assistive products for controlling indoor air temperature and humidity",
+        category: "Environment",
+        description: "Portable products for controlling temperature and humidity.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "27 03 03",
+        keywords: ["air conditioning", "temperature", "humidity", "climate control"],
+        conditions: "May be prescribed to meet an assessed, specialised need only (for example, older people with asthma or other respiratory conditions). Must be portable items."
+    },
+    {
+        name: "Assistive products for improving indoor air quality",
+        category: "Environment",
+        description: "Portable products for improving air quality.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "27 03 06",
+        keywords: ["air quality", "purifier", "filter", "respiratory"],
+        conditions: "May be prescribed to meet an assessed, specialised need only (for example, older people with asthma or other respiratory conditions). Must be portable items."
+    },
+    {
+        name: "Assistive products for reducing noise",
+        category: "Environment",
+        description: "Portable products for noise reduction.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "27 03 09",
+        keywords: ["noise reduction", "sound", "quiet"],
+        conditions: "May be prescribed to meet an assessed, specialised need only (for example, older people with asthma or other respiratory conditions). Must be portable items."
+    },
+    {
+        name: "Assistive products for controlling illumination",
+        category: "Environment",
+        description: "Portable products for light control.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "27 03 15",
+        keywords: ["lighting", "illumination", "light control"],
+        conditions: "May be prescribed to meet an assessed, specialised need only (for example, older people with asthma or other respiratory conditions). Must be portable items."
+    },
+
+    // Hunting and fishing (ISO 30 24) - Conditional for cultural practices
+    {
+        name: "Assistive products for hunting",
+        category: "Recreation",
+        description: "Products to assist with hunting activities.",
+        riskLevel: "under-advice",
+        status: "conditional",
+        isoCode: "30 24 03",
+        keywords: ["hunting", "outdoor", "recreation", "cultural"],
+        conditions: "May be considered if evidence is provided to support cultural practices, such as for older Aboriginal and Torres Strait Islander people"
+    },
+    {
+        name: "Assistive products for fishing",
+        category: "Recreation",
+        description: "Products to assist with fishing activities.",
+        riskLevel: "under-advice",
+        status: "conditional",
+        isoCode: "30 24 06",
+        keywords: ["fishing", "outdoor", "recreation", "cultural"],
+        conditions: "May be considered if evidence is provided to support cultural practices, such as for older Aboriginal and Torres Strait Islander people"
+    },
+
+    // Camping and caravanning (ISO 30 27) - Conditional for cultural practices
+    {
+        name: "Assistive products for camping",
+        category: "Recreation",
+        description: "Products to assist with camping activities.",
+        riskLevel: "under-advice",
+        status: "conditional",
+        isoCode: "30 27",
+        keywords: ["camping", "outdoor", "recreation", "cultural"],
+        conditions: "May be considered if evidence is provided to support cultural practices, such as for older Aboriginal and Torres Strait Islander people"
+    },
+
+    // Hearing - Conditional (where not covered by Hearing Services Program)
+    {
+        name: "Sound transmission systems for hearing aids",
+        category: "Communication and Information",
+        description: "Systems for transmitting sound to hearing aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 06 25",
+        keywords: ["hearing", "sound transmission", "FM system", "loop"],
+        conditions: "Only available where not covered by the Hearing Services Program"
+    },
+    {
+        name: "Accessories for assistive products for hearing",
+        category: "Communication and Information",
+        description: "Accessories for hearing assistive products.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 06 27",
+        keywords: ["hearing", "accessories", "hearing aid"],
+        conditions: "Only available where not covered by the Hearing Services Program"
+    },
+
+    // Computers and terminals - Conditional
+    {
+        name: "Portable computers and personal digital assistants (PDA)",
+        category: "Communication and Information",
+        description: "Portable computing devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 33 06",
+        keywords: ["computer", "laptop", "tablet", "PDA", "portable"],
+        conditions: "May be prescribed where software or applications are also prescribed, and the older person has no capacity to buy"
+    },
+
+    // =====================================================
     // ASSISTANCE DOGS - MOBILITY (Prescribed)
     // =====================================================
     {
