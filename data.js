@@ -278,17 +278,221 @@ const athmData = [
         keywords: ["bed", "wedge", "pillow", "positioning"]
     },
 
+    // Nail care
+    {
+        name: "Nail brushes",
+        category: "Personal Care and Protection",
+        description: "Brushes for cleaning nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 03",
+        keywords: ["nail", "brush", "cleaning", "hygiene"]
+    },
+    {
+        name: "Nail files and emery boards",
+        category: "Personal Care and Protection",
+        description: "Files and emery boards for shaping and smoothing nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 06",
+        keywords: ["nail", "file", "emery", "grooming"]
+    },
+    {
+        name: "Nail scissors and clippers",
+        category: "Personal Care and Protection",
+        description: "Scissors and clippers for trimming nails.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 36 09",
+        keywords: ["nail", "scissors", "clippers", "trimming"]
+    },
+
+    // Hair care
+    {
+        name: "Assistive products for shampooing",
+        category: "Personal Care and Protection",
+        description: "Products to assist with hair washing and shampooing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 03",
+        keywords: ["shampoo", "hair", "washing", "hygiene"]
+    },
+    {
+        name: "Combs and hairbrushes",
+        category: "Personal Care and Protection",
+        description: "Combs and brushes for grooming hair.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 06",
+        keywords: ["comb", "hairbrush", "grooming", "hair"]
+    },
+    {
+        name: "Hair dryers",
+        category: "Personal Care and Protection",
+        description: "Devices for drying hair.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 39 09",
+        keywords: ["hair dryer", "drying", "hair", "grooming"]
+    },
+
+    // Dental care
+    {
+        name: "Unpowered toothbrushes",
+        category: "Personal Care and Protection",
+        description: "Manual toothbrushes for dental hygiene.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 42 03",
+        keywords: ["toothbrush", "dental", "manual", "hygiene"]
+    },
+    {
+        name: "Powered toothbrushes",
+        category: "Personal Care and Protection",
+        description: "Electric toothbrushes for dental hygiene.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 42 06",
+        keywords: ["toothbrush", "dental", "electric", "powered", "hygiene"]
+    },
+
+    // Facial care
+    {
+        name: "Shaving brushes, razors and electric shavers",
+        category: "Personal Care and Protection",
+        description: "Tools for shaving including brushes, razors and electric shavers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 03",
+        keywords: ["shaving", "razor", "electric shaver", "grooming"]
+    },
+    {
+        name: "Assistive products for application of facial products",
+        category: "Personal Care and Protection",
+        description: "Products to assist with applying facial products.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 06",
+        keywords: ["facial", "application", "cosmetics", "grooming"]
+    },
+    {
+        name: "Mirrors for facial care",
+        category: "Personal Care and Protection",
+        description: "Mirrors designed to assist with facial care activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 45 09",
+        keywords: ["mirror", "facial", "grooming", "care"]
+    },
+
+    // Sexual activity
+    {
+        name: "Assistive products for sexual habitation and rehabilitation",
+        category: "Personal Care and Protection",
+        description: "Products to assist with sexual activity and rehabilitation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 54 12",
+        keywords: ["sexual", "rehabilitation", "habitation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
     // =====================================================
     // MOBILITY (ISO 12)
     // =====================================================
+
+    // Walking, not manipulated by the arms
+    {
+        name: "Assistive products for walking, not manipulated by the arms",
+        category: "Mobility",
+        description: "Assistive products for walking that are not manipulated by the arms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 02",
+        keywords: ["walking", "prosthetic", "orthotic", "leg"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Walking, manipulated by one arm
     {
         name: "Walking stick (single point)",
         category: "Mobility",
         description: "Single point walking stick for balance and support during walking.",
-        riskLevel: "low-risk",
-        status: "included",
+        riskLevel: "prescribed",
+        status: "conditional",
         isoCode: "12 03 03",
-        keywords: ["walking", "stick", "cane", "balance"]
+        keywords: ["walking", "stick", "cane", "balance"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Elbow crutches",
+        category: "Mobility",
+        description: "Crutches with elbow support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 06",
+        keywords: ["crutch", "elbow", "walking", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Forearm crutches",
+        category: "Mobility",
+        description: "Crutches with forearm support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 09",
+        keywords: ["crutch", "forearm", "walking", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Axillary crutches",
+        category: "Mobility",
+        description: "Crutches with underarm support for walking assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 12",
+        keywords: ["crutch", "axillary", "underarm", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Multi-tip walking sticks",
+        category: "Mobility",
+        description: "Walking sticks with multiple tips for added stability.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 16",
+        keywords: ["walking", "stick", "multi-tip", "stability"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking sticks with seat",
+        category: "Mobility",
+        description: "Walking sticks that include a built-in seat for resting.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 18",
+        keywords: ["walking", "stick", "seat", "rest"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lateral support frames",
+        category: "Mobility",
+        description: "Frames providing lateral support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 21",
+        keywords: ["frame", "lateral", "support", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking sticks with wheels",
+        category: "Mobility",
+        description: "Walking sticks equipped with wheels for easier mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 03 24",
+        keywords: ["walking", "stick", "wheels", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
     },
     {
         name: "Quad stick (four point)",
@@ -336,6 +540,393 @@ const athmData = [
         keywords: ["walking", "frame", "forearm", "gutter"]
     },
     {
+        name: "Walking trolleys",
+        category: "Mobility",
+        description: "Wheeled trolleys that provide support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 07",
+        keywords: ["walking", "trolley", "wheels", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking chairs",
+        category: "Mobility",
+        description: "Chairs with wheels that allow mobility while seated.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 09",
+        keywords: ["walking", "chair", "seated", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Walking tables",
+        category: "Mobility",
+        description: "Tables with wheels that provide support during walking.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 12",
+        keywords: ["walking", "table", "support", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Powered rollators",
+        category: "Mobility",
+        description: "Rollators with powered assistance for easier mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 06 15",
+        keywords: ["rollator", "powered", "electric", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Accessories for assistive products for walking
+    {
+        name: "Tips for assistive products for walking",
+        category: "Mobility",
+        description: "Replacement tips for walking aids such as canes and crutches.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 05",
+        keywords: ["tips", "walking", "cane", "crutch", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Products to properly grip assistive products for walking",
+        category: "Mobility",
+        description: "Grip aids and covers for walking products.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 12",
+        keywords: ["grip", "handle", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for walking products to support specific body parts",
+        category: "Mobility",
+        description: "Accessories that provide support for specific body parts while using walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 15",
+        keywords: ["support", "body", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for walking products to protect from injury",
+        category: "Mobility",
+        description: "Protective accessories for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 18",
+        keywords: ["protection", "injury", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Seats for assistive products for walking",
+        category: "Mobility",
+        description: "Seat attachments for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 21",
+        keywords: ["seat", "walking", "rest", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories attached to walking products to hold or carry objects",
+        category: "Mobility",
+        description: "Baskets and carriers that attach to walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 24",
+        keywords: ["basket", "carrier", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Products to hold walking products in place when not in use",
+        category: "Mobility",
+        description: "Holders and stands for storing walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 27",
+        keywords: ["holder", "stand", "storage", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories to manoeuvre assistive products for walking",
+        category: "Mobility",
+        description: "Accessories that help users manoeuvre walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 30",
+        keywords: ["manoeuvre", "steering", "walking", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories to adjust height of rollators and walking frames",
+        category: "Mobility",
+        description: "Height adjustment accessories for rollators and walking frames.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 33",
+        keywords: ["height", "adjustment", "rollator", "frame"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lights and safety signalling devices for walking products",
+        category: "Mobility",
+        description: "Lights and reflectors for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 36",
+        keywords: ["light", "safety", "signal", "walking"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Tyres and wheels for assistive products for walking",
+        category: "Mobility",
+        description: "Replacement tyres and wheels for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 39",
+        keywords: ["tyres", "wheels", "walking", "replacement"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Power assist units for assistive products for walking",
+        category: "Mobility",
+        description: "Powered assistance units for walking aids.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 07 42",
+        keywords: ["power assist", "electric", "walking", "motor"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Guide canes and symbol canes
+    {
+        name: "Guide canes",
+        category: "Mobility",
+        description: "Canes used for orientation and navigation by visually impaired persons.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 03",
+        keywords: ["guide", "cane", "blind", "orientation"]
+    },
+    {
+        name: "Symbol canes",
+        category: "Mobility",
+        description: "Canes used to indicate visual impairment to others.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 06",
+        keywords: ["symbol", "cane", "blind", "identification"]
+    },
+    {
+        name: "Accessories for guide canes and symbol canes",
+        category: "Mobility",
+        description: "Accessories for guide and symbol canes.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 08 09",
+        keywords: ["accessory", "guide cane", "symbol cane"]
+    },
+
+    // Vehicle accessories and adaptations
+    {
+        name: "Vehicle accessories to control speed",
+        category: "Mobility",
+        description: "Vehicle adaptations to assist with speed control.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 05",
+        keywords: ["vehicle", "speed", "control", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle accessories to operate steering system",
+        category: "Mobility",
+        description: "Vehicle adaptations for steering system operation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 07",
+        keywords: ["vehicle", "steering", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories for complementary vehicle functions",
+        category: "Mobility",
+        description: "Adaptations for complementary functions necessary to operate vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 08",
+        keywords: ["vehicle", "function", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle occupant restraining systems",
+        category: "Mobility",
+        description: "Specialized restraint systems for vehicle occupants.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 09",
+        keywords: ["vehicle", "restraint", "seatbelt", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Seats and cushions for motor vehicles",
+        category: "Mobility",
+        description: "Specialized seats and cushions for use in motor vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 12",
+        keywords: ["vehicle", "seat", "cushion", "car"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Accessories and adaptations for seating in vehicles",
+        category: "Mobility",
+        description: "Accessories related to seating in vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 15",
+        keywords: ["vehicle", "seating", "adaptation", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hoists to transfer person into or out of vehicles",
+        category: "Mobility",
+        description: "Hoists for transferring a person into or out of vehicles without wheelchair.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 18",
+        keywords: ["vehicle", "hoist", "transfer", "lift"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for transferring wheelchair user into/out of vehicles",
+        category: "Mobility",
+        description: "Products for transferring a person seated in a wheelchair into or out of vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 21",
+        keywords: ["vehicle", "wheelchair", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for loading wheelchairs onto vehicles",
+        category: "Mobility",
+        description: "Products for loading unoccupied wheelchairs onto or into vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 24",
+        keywords: ["vehicle", "wheelchair", "loading"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for fastening wheelchairs in vehicles",
+        category: "Mobility",
+        description: "Products for securing wheelchairs in vehicles.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 27",
+        keywords: ["vehicle", "wheelchair", "fastening", "securing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Vehicle chassis and body adaptations",
+        category: "Mobility",
+        description: "Adaptations to vehicle chassis and body.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 12 30",
+        keywords: ["vehicle", "chassis", "body", "adaptation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Diverse motorised vehicles
+    {
+        name: "Diverse four-wheeled motorised vehicles",
+        category: "Mobility",
+        description: "Four-wheeled motorised vehicles for mobility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 17 09",
+        keywords: ["motorised", "vehicle", "four-wheeled", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Manual wheelchairs
+    {
+        name: "Bimanual handrim-drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by both hands using handrims.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 03",
+        keywords: ["wheelchair", "manual", "handrim", "bimanual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bimanual lever-drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by both hands using levers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 06",
+        keywords: ["wheelchair", "manual", "lever", "bimanual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Single-side manual drive wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs that can be propelled using one side only.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 09",
+        keywords: ["wheelchair", "manual", "single-side", "one-arm"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Handrim-activated power-assisted wheelchairs",
+        category: "Mobility",
+        description: "Manual wheelchairs with power assistance activated by handrims.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 12",
+        keywords: ["wheelchair", "power-assisted", "handrim"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Foot-propelled wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs propelled by the user's feet.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 15",
+        keywords: ["wheelchair", "foot-propelled", "manual"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Push wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs designed to be pushed by an attendant.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 18",
+        keywords: ["wheelchair", "push", "attendant"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Power-assisted push wheelchairs",
+        category: "Mobility",
+        description: "Push wheelchairs with power assistance for the attendant.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 22 21",
+        keywords: ["wheelchair", "push", "power-assisted"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
         name: "Manual wheelchair (basic)",
         category: "Mobility",
         description: "Basic self-propelled or attendant-propelled wheelchair.",
@@ -363,6 +954,138 @@ const athmData = [
         isoCode: "12 23 03",
         keywords: ["wheelchair", "power", "electric", "motorized"],
         conditions: "Requires comprehensive assessment demonstrating inability to use manual wheelchair"
+    },
+    {
+        name: "Electrically powered wheelchairs with electronic steering",
+        category: "Mobility",
+        description: "Power wheelchairs with electronic steering systems.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 06",
+        keywords: ["wheelchair", "power", "electronic", "steering"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistant-controlled electrically powered wheelchairs",
+        category: "Mobility",
+        description: "Power wheelchairs controlled by an assistant rather than the user.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 12",
+        keywords: ["wheelchair", "power", "assistant", "controlled"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stair-climbing powered wheelchairs",
+        category: "Mobility",
+        description: "Powered wheelchairs capable of climbing stairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 15",
+        keywords: ["wheelchair", "power", "stair-climbing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Self-balancing wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs that self-balance using gyroscopic technology.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 23 18",
+        keywords: ["wheelchair", "self-balancing", "gyroscopic"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Additional wheelchair accessories
+    {
+        name: "Steering and control systems for wheelchairs",
+        category: "Mobility",
+        description: "Steering and control system accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 03",
+        keywords: ["wheelchair", "steering", "control", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Propulsion units for manual wheelchairs",
+        category: "Mobility",
+        description: "Add-on propulsion units for manual wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 09",
+        keywords: ["wheelchair", "propulsion", "add-on", "power"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Half-hand bikes",
+        category: "Mobility",
+        description: "Attachable hand-cycling units for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 11",
+        keywords: ["wheelchair", "handcycle", "half-hand", "bike"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lights and safety signalling devices for wheelchairs",
+        category: "Mobility",
+        description: "Lights and reflectors for wheelchair safety.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 12",
+        keywords: ["wheelchair", "lights", "safety", "signalling"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Running or parking brakes for wheelchairs",
+        category: "Mobility",
+        description: "Brake systems for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 18",
+        keywords: ["wheelchair", "brakes", "parking", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Tyres, wheels and castors for wheelchairs",
+        category: "Mobility",
+        description: "Replacement tyres, wheels and castors for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 21",
+        keywords: ["wheelchair", "tyres", "wheels", "castors"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Batteries and battery chargers for wheelchairs",
+        category: "Mobility",
+        description: "Batteries and charging equipment for powered wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 24",
+        keywords: ["wheelchair", "battery", "charger", "power"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices for cleaning wheelchairs",
+        category: "Mobility",
+        description: "Devices for cleaning wheelchairs or parts of wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 28",
+        keywords: ["wheelchair", "cleaning", "maintenance"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices to protect wheelchairs from sunlight or precipitation",
+        category: "Mobility",
+        description: "Canopies and covers to protect wheelchairs and occupants.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 34",
+        keywords: ["wheelchair", "canopy", "cover", "protection"],
+        conditions: "Requires prescription from qualified health professional"
     },
     {
         name: "Wheelchair cushion (basic)",
