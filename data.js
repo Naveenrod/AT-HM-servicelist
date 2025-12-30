@@ -468,6 +468,296 @@ const athmData = [
         keywords: ["hoist", "sling", "lifting", "transfer"]
     },
 
+    // Wheelchair accessories
+    {
+        name: "Devices to connect a wheelchair to a bicycle",
+        category: "Mobility",
+        description: "Devices that allow connection of a wheelchair to a bicycle for transportation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 39",
+        keywords: ["wheelchair", "bicycle", "connect", "transport"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices to facilitate wheelchair movement up and down stairs",
+        category: "Mobility",
+        description: "Devices to which a wheelchair is attached that facilitate movement up and down stairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 42",
+        keywords: ["wheelchair", "stairs", "stair climber", "transport"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices attached to wheelchairs to hold or carry objects",
+        category: "Mobility",
+        description: "Accessories attached to wheelchairs for holding or carrying objects.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 45",
+        keywords: ["wheelchair", "carry", "hold", "accessory"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Devices to check surroundings of wheelchairs",
+        category: "Mobility",
+        description: "Devices that help wheelchair users check their surroundings.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 24 48",
+        keywords: ["wheelchair", "surroundings", "mirror", "safety"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Accessories for wheelchair seating
+    {
+        name: "Back supports for wheelchairs",
+        category: "Mobility",
+        description: "Back support accessories designed specifically for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 03",
+        keywords: ["wheelchair", "back", "support", "seating"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Seat cushions and underlays for wheelchairs",
+        category: "Mobility",
+        description: "Cushions and underlays designed for wheelchair seating.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 06",
+        keywords: ["wheelchair", "cushion", "seat", "underlay"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Arm supports for wheelchairs",
+        category: "Mobility",
+        description: "Arm support accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 09",
+        keywords: ["wheelchair", "arm", "support", "armrest"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Head supports and neck supports for wheelchairs",
+        category: "Mobility",
+        description: "Head and neck support accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 12",
+        keywords: ["wheelchair", "head", "neck", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Leg supports and foot supports for wheelchairs",
+        category: "Mobility",
+        description: "Leg and foot support accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 15",
+        keywords: ["wheelchair", "leg", "foot", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Trunk supports and pelvic supports for wheelchairs",
+        category: "Mobility",
+        description: "Trunk and pelvic support accessories for wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 18",
+        keywords: ["wheelchair", "trunk", "pelvic", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lap trays for wheelchairs",
+        category: "Mobility",
+        description: "Lap trays designed for use with wheelchairs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 25 24",
+        keywords: ["wheelchair", "lap", "tray", "table"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Diverse human powered vehicles
+    {
+        name: "Crawlers and mobility boards",
+        category: "Mobility",
+        description: "Crawlers and mobility boards for floor-level movement.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 27 15",
+        keywords: ["crawler", "mobility board", "floor", "movement"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Manually powered stand-on mobility devices",
+        category: "Mobility",
+        description: "Stand-on mobility devices powered manually by the user.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 27 24",
+        keywords: ["stand-on", "mobility", "manual", "device"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Changing body position
+    {
+        name: "Assistive products for sliding and turning",
+        category: "Mobility",
+        description: "Products that assist with sliding and turning movements for repositioning.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 03",
+        keywords: ["sliding", "turning", "transfer", "repositioning"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Turntables",
+        category: "Mobility",
+        description: "Turntable devices that assist with rotating movements during transfers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 06",
+        keywords: ["turntable", "rotating", "transfer", "pivot"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Non-mounted rails for self-lifting",
+        category: "Mobility",
+        description: "Rails that are not mounted to walls or floors for self-lifting assistance.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 09",
+        keywords: ["rail", "self-lifting", "portable", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Grip ladders",
+        category: "Mobility",
+        description: "Ladder-style gripping aids for pulling oneself up from lying or seated positions.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 12",
+        keywords: ["grip", "ladder", "pull-up", "repositioning"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lifting belts and harnesses",
+        category: "Mobility",
+        description: "Belts and harnesses used to assist with lifting and transferring.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 15",
+        keywords: ["belt", "harness", "lifting", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Transfer platforms",
+        category: "Mobility",
+        description: "Platforms designed to assist with transfers between surfaces.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 21",
+        keywords: ["platform", "transfer", "surface", "mobility"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Lifting seats and mattresses",
+        category: "Mobility",
+        description: "Seats and mattresses with lifting mechanisms to assist with standing.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 31 24",
+        keywords: ["lifting", "seat", "mattress", "standing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Lifting persons
+    {
+        name: "Mobile hoists for transferring person in sitting position with sling seats",
+        category: "Mobility",
+        description: "Mobile hoists with sling seats for transferring a person in sitting position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 03",
+        keywords: ["hoist", "mobile", "sling", "sitting", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Mobile hoists for transferring person in standing position",
+        category: "Mobility",
+        description: "Mobile hoists designed to transfer a person while in standing position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 04",
+        keywords: ["hoist", "mobile", "standing", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Mobile hoists for transferring person in sitting position with solid seats",
+        category: "Mobility",
+        description: "Mobile hoists with solid seats for transferring a person in sitting position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 06",
+        keywords: ["hoist", "mobile", "solid seat", "sitting", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Mobile hoists for transferring person in lying position",
+        category: "Mobility",
+        description: "Mobile hoists designed to transfer a person while in lying position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 09",
+        keywords: ["hoist", "mobile", "lying", "supine", "transfer"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stationary hoists fixed to walls, floor or ceiling",
+        category: "Mobility",
+        description: "Hoists that are permanently fixed to walls, floor or ceiling.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 12",
+        keywords: ["hoist", "stationary", "fixed", "ceiling", "wall"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stationary hoists fixed to or mounted on another product",
+        category: "Mobility",
+        description: "Hoists that are fixed to or mounted in or on another product.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 15",
+        keywords: ["hoist", "stationary", "mounted", "attached"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Stationary free-standing hoists",
+        category: "Mobility",
+        description: "Free-standing hoists that do not require mounting.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 18",
+        keywords: ["hoist", "stationary", "free-standing", "portable"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Body support units for hoists",
+        category: "Mobility",
+        description: "Body support units and slings used with hoists for lifting.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12 36 21",
+        keywords: ["hoist", "body support", "sling", "unit"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
     // =====================================================
     // COMMUNICATION AND INFORMATION (ISO 22)
     // =====================================================
@@ -712,6 +1002,307 @@ const athmData = [
         status: "included",
         isoCode: "15 12 15",
         keywords: ["trolley", "kitchen", "transport", "wheels"]
+    },
+
+    // Preparing food and drink
+    {
+        name: "Assistive products for weighing and measuring to prepare food and drink",
+        category: "Household and Domestic",
+        description: "Products to assist with weighing and measuring ingredients for food and drink preparation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 03 03",
+        keywords: ["weighing", "measuring", "kitchen", "food preparation"]
+    },
+    {
+        name: "Assistive products for cutting, chopping and dividing to prepare food and drink",
+        category: "Household and Domestic",
+        description: "Products to assist with cutting, chopping and dividing food and drink items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 03 09",
+        keywords: ["cutting", "chopping", "dividing", "kitchen", "food preparation"]
+    },
+    {
+        name: "Assistive products for cleaning and peeling",
+        category: "Household and Domestic",
+        description: "Products to assist with cleaning and peeling food items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 03 12",
+        keywords: ["cleaning", "peeling", "kitchen", "food preparation"]
+    },
+    {
+        name: "Assistive products for baking",
+        category: "Household and Domestic",
+        description: "Products to assist with baking activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 03 15",
+        keywords: ["baking", "kitchen", "cooking", "food preparation"]
+    },
+
+    // Dishwashing
+    {
+        name: "Dishwashing brushes and flask brushes",
+        category: "Household and Domestic",
+        description: "Brushes designed for washing dishes and flasks.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 06 06",
+        keywords: ["dishwashing", "brush", "flask", "cleaning"]
+    },
+    {
+        name: "Dish drying racks",
+        category: "Household and Domestic",
+        description: "Racks for drying dishes after washing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 06 09",
+        keywords: ["dish", "drying", "rack", "kitchen"]
+    },
+    {
+        name: "Dishcloth wringers",
+        category: "Household and Domestic",
+        description: "Devices to wring out dishcloths.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 06 15",
+        keywords: ["dishcloth", "wringer", "kitchen", "cleaning"]
+    },
+
+    // Eating and drinking
+    {
+        name: "Assistive products for service and storing food and drink",
+        category: "Household and Domestic",
+        description: "Products to assist with serving and storing food and drink.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 03",
+        keywords: ["service", "storing", "food", "drink"]
+    },
+    {
+        name: "Food dispensers",
+        category: "Household and Domestic",
+        description: "Devices for dispensing food items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 06",
+        keywords: ["food", "dispenser", "eating", "kitchen"]
+    },
+    {
+        name: "Stoppers and funnels",
+        category: "Household and Domestic",
+        description: "Stoppers and funnels for food and drink containers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "19 09 09",
+        keywords: ["stopper", "funnel", "container", "pouring"]
+    },
+    {
+        name: "Cutlery, chopsticks, straws",
+        category: "Household and Domestic",
+        description: "Eating utensils including cutlery, chopsticks and straws.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 13",
+        keywords: ["cutlery", "chopsticks", "straws", "eating"]
+    },
+    {
+        name: "Mugs, glasses, cups, and saucers",
+        category: "Household and Domestic",
+        description: "Drinking vessels including mugs, glasses, cups and saucers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 16",
+        keywords: ["mug", "glass", "cup", "saucer", "drinking"]
+    },
+    {
+        name: "Plates and bowls",
+        category: "Household and Domestic",
+        description: "Plates and bowls for serving and eating food.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 18",
+        keywords: ["plate", "bowl", "eating", "serving"]
+    },
+    {
+        name: "Food guards",
+        category: "Household and Domestic",
+        description: "Guards to prevent food from falling off plates.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 21",
+        keywords: ["food", "guard", "plate", "eating"]
+    },
+    {
+        name: "Egg cups",
+        category: "Household and Domestic",
+        description: "Cups designed for holding eggs while eating.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 09 24",
+        keywords: ["egg", "cup", "eating", "breakfast"]
+    },
+    {
+        name: "Feeding apparatus",
+        category: "Household and Domestic",
+        description: "Specialized feeding apparatus for individuals requiring assisted feeding.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "15 09 27",
+        keywords: ["feeding", "apparatus", "assisted", "eating"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Housecleaning
+    {
+        name: "Dustpans, dust brushes and dust brooms",
+        category: "Household and Domestic",
+        description: "Cleaning tools including dustpans, dust brushes and brooms.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 12 03",
+        keywords: ["dustpan", "brush", "broom", "cleaning"]
+    },
+    {
+        name: "Brushes, sponges, chamois leathers, dusters and floorcloths",
+        category: "Household and Domestic",
+        description: "Various cleaning materials including brushes, sponges, chamois, dusters and floorcloths.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 12 06",
+        keywords: ["brush", "sponge", "chamois", "duster", "floorcloth", "cleaning"]
+    },
+    {
+        name: "Vacuum cleaners",
+        category: "Household and Domestic",
+        description: "Vacuum cleaners for household cleaning.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 12 09",
+        keywords: ["vacuum", "cleaner", "cleaning", "floor"]
+    },
+    {
+        name: "Carpet sweepers for dry use",
+        category: "Household and Domestic",
+        description: "Manual carpet sweepers for dry cleaning of carpets.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 12 12",
+        keywords: ["carpet", "sweeper", "cleaning", "dry"]
+    },
+    {
+        name: "Floor mopping equipment",
+        category: "Household and Domestic",
+        description: "Equipment for mopping floors.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 12 22",
+        keywords: ["floor", "mop", "mopping", "cleaning"]
+    },
+
+    // Making and maintaining textiles for domestic use
+    {
+        name: "Scissors",
+        category: "Household and Domestic",
+        description: "Scissors for cutting textiles and other materials.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 21",
+        keywords: ["scissors", "cutting", "textile", "sewing"]
+    },
+    {
+        name: "Ironing machines and irons",
+        category: "Household and Domestic",
+        description: "Machines and irons for pressing textiles.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 24",
+        keywords: ["ironing", "machine", "iron", "textile"]
+    },
+    {
+        name: "Ironing boards and ironing tables",
+        category: "Household and Domestic",
+        description: "Boards and tables for ironing textiles.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 27",
+        keywords: ["ironing", "board", "table", "textile"]
+    },
+    {
+        name: "Laundry baskets on castors",
+        category: "Household and Domestic",
+        description: "Wheeled laundry baskets for easy transport.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 30",
+        keywords: ["laundry", "basket", "castor", "wheel", "transport"]
+    },
+    {
+        name: "Wringers for laundry",
+        category: "Household and Domestic",
+        description: "Wringers for removing excess water from laundry.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 36",
+        keywords: ["wringer", "laundry", "water", "textile"]
+    },
+    {
+        name: "Clothespins",
+        category: "Household and Domestic",
+        description: "Pins for hanging clothes to dry.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 39",
+        keywords: ["clothespin", "peg", "drying", "laundry"]
+    },
+    {
+        name: "Assistive products for drying clothes",
+        category: "Household and Domestic",
+        description: "Products to assist with drying clothes. Note: tumble dryers and spin dryers are conditional inclusions.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 43",
+        keywords: ["drying", "clothes", "laundry", "dryer"]
+    },
+    {
+        name: "Shoe cleaning devices",
+        category: "Household and Domestic",
+        description: "Devices for cleaning shoes.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 15 48",
+        keywords: ["shoe", "cleaning", "device", "footwear"]
+    },
+
+    // Gardening and lawn care for domestic use
+    {
+        name: "Tools for outdoor gardening",
+        category: "Household and Domestic",
+        description: "Tools for outdoor gardening activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 18 03",
+        keywords: ["gardening", "tools", "outdoor", "garden"]
+    },
+    {
+        name: "Assistive products for protecting the body while gardening",
+        category: "Household and Domestic",
+        description: "Products to protect the body during gardening activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 18 09",
+        keywords: ["gardening", "protection", "body", "safety"]
+    },
+    {
+        name: "Tools for indoor gardening and flower arranging",
+        category: "Household and Domestic",
+        description: "Tools for indoor gardening and flower arranging activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "15 18 12",
+        keywords: ["gardening", "indoor", "flower", "arranging"]
     },
 
     // =====================================================
@@ -1349,6 +1940,254 @@ const athmData = [
         isoCode: "18 09 27",
         keywords: ["bariatric", "heavy-duty", "weight", "furniture"],
         conditions: "For individuals exceeding standard equipment weight limits"
+    },
+
+    // Tables
+    {
+        name: "Reading desks, writing desks and standing desks",
+        category: "Furniture and Seating",
+        description: "Desks designed for reading, writing and standing work activities.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 03 06",
+        keywords: ["desk", "reading", "writing", "standing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Dining tables",
+        category: "Furniture and Seating",
+        description: "Tables designed for dining activities.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 03 12",
+        keywords: ["table", "dining", "eating", "meal"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bed tables",
+        category: "Furniture and Seating",
+        description: "Tables designed for use in or near the bed.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 03 15",
+        keywords: ["table", "bed", "overbed", "bedside"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Light fixtures
+    {
+        name: "General lights",
+        category: "Furniture and Seating",
+        description: "General lighting fixtures for home use.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 06 03",
+        keywords: ["light", "lighting", "fixture", "general"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Reading lights and working lights",
+        category: "Furniture and Seating",
+        description: "Specialized lights for reading and working activities.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 06 06",
+        keywords: ["light", "reading", "working", "task"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Sitting furniture
+    {
+        name: "Chairs",
+        category: "Furniture and Seating",
+        description: "Standard chairs for seating.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 03",
+        keywords: ["chair", "sitting", "seating", "furniture"]
+    },
+    {
+        name: "Stools",
+        category: "Furniture and Seating",
+        description: "Stools for seating at various heights.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 04",
+        keywords: ["stool", "sitting", "seating", "height"]
+    },
+    {
+        name: "Standing chairs",
+        category: "Furniture and Seating",
+        description: "Chairs designed to support standing or leaning positions.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 07",
+        keywords: ["chair", "standing", "leaning", "support"]
+    },
+    {
+        name: "Coxit chairs",
+        category: "Furniture and Seating",
+        description: "Specialized chairs with features for hip conditions.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 09",
+        keywords: ["chair", "coxit", "hip", "specialized"]
+    },
+    {
+        name: "Lounge chairs and easy chairs",
+        category: "Furniture and Seating",
+        description: "Comfortable chairs for relaxation and lounging.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 15",
+        keywords: ["chair", "lounge", "easy", "comfort", "relaxation"]
+    },
+    {
+        name: "Special sitting furniture",
+        category: "Furniture and Seating",
+        description: "Specialized seating furniture for specific needs.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 21",
+        keywords: ["chair", "special", "sitting", "furniture"]
+    },
+    {
+        name: "Chair lifts and chair transporters",
+        category: "Furniture and Seating",
+        description: "Devices for lifting or transporting chairs.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 24",
+        keywords: ["chair", "lift", "transporter", "mobility"]
+    },
+    {
+        name: "Modular seating systems",
+        category: "Furniture and Seating",
+        description: "Modular seating systems that can be configured for specific needs.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 09 39",
+        keywords: ["seating", "modular", "system", "configurable"]
+    },
+
+    // Accessories for sitting furniture
+    {
+        name: "Back cushions for sitting furniture",
+        category: "Furniture and Seating",
+        description: "Cushions designed to provide back support for sitting furniture.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 10 03",
+        keywords: ["cushion", "back", "sitting", "support"]
+    },
+    {
+        name: "Neck and head support for sitting furniture",
+        category: "Furniture and Seating",
+        description: "Supports for neck and head designed for sitting furniture.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 10 13",
+        keywords: ["support", "neck", "head", "sitting"]
+    },
+    {
+        name: "Leg rests and footrests",
+        category: "Furniture and Seating",
+        description: "Rests for legs and feet used with sitting furniture.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 10 15",
+        keywords: ["leg rest", "footrest", "sitting", "support"]
+    },
+    {
+        name: "Cushions or systems to assist a person to stand or sit",
+        category: "Furniture and Seating",
+        description: "Cushions or systems added to seats to assist a person to stand or sit.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "18 10 21",
+        keywords: ["cushion", "system", "standing", "sitting", "assist"]
+    },
+
+    // Beds and bed equipment
+    {
+        name: "Beds and bed boards/mattress support platforms, non-adjustable",
+        category: "Furniture and Seating",
+        description: "Non-adjustable beds and detachable bed boards or mattress support platforms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 04",
+        keywords: ["bed", "board", "mattress", "platform", "non-adjustable"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Beds and bed boards/mattress support platforms with manual adjustment",
+        category: "Furniture and Seating",
+        description: "Beds and detachable bed boards or mattress support platforms with manual adjustment.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 07",
+        keywords: ["bed", "board", "mattress", "platform", "manual", "adjustable"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Beds and bed boards/mattress support platforms with powered adjustment",
+        category: "Furniture and Seating",
+        description: "Beds and detachable bed boards or mattress support platforms with powered adjustment.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 10",
+        keywords: ["bed", "board", "mattress", "platform", "powered", "electric", "adjustable"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bed lifts",
+        category: "Furniture and Seating",
+        description: "Lifting devices for beds.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 12",
+        keywords: ["bed", "lift", "raising", "height"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Bedding",
+        category: "Furniture and Seating",
+        description: "Bedding items including sheets, blankets, and covers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 15",
+        keywords: ["bedding", "sheets", "blankets", "covers"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Mattress and mattress coverings",
+        category: "Furniture and Seating",
+        description: "Mattresses and mattress coverings for beds.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 18",
+        keywords: ["mattress", "covering", "bed", "sleep"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Blanket supports",
+        category: "Furniture and Seating",
+        description: "Supports to keep blankets off the body.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 21",
+        keywords: ["blanket", "support", "bed", "cradle"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Separate adjustable back supports and leg supports for beds",
+        category: "Furniture and Seating",
+        description: "Adjustable back and leg supports that can be added to beds.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 24",
+        keywords: ["back support", "leg support", "bed", "adjustable"],
+        conditions: "Requires prescription from qualified health professional"
     }
 ];
 
