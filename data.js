@@ -3593,6 +3593,842 @@ const athmData = [
         status: "included",
         isoCode: "09 33 30",
         keywords: ["drying", "towel", "bathing", "dry", "equipment"]
+    },
+
+    // Supporting and Stimulating Blood Circulation (ISO 04 06)
+    {
+        name: "Anti-oedema stockings for arms and legs and other parts of the body",
+        category: "Personal Care and Protection",
+        description: "Compression stockings and garments to support blood circulation and reduce swelling.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "04 06 06",
+        keywords: ["compression", "stockings", "oedema", "circulation", "swelling", "arms", "legs"]
+    },
+
+    // Administering Medicines (ISO 04 19)
+    {
+        name: "Assistive products for administering non-liquid medicines",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with taking tablets, capsules and other non-liquid medications.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "04 19 04",
+        keywords: ["medicine", "tablet", "pill", "capsule", "dispenser", "administering"]
+    },
+
+    // Enhance Cognitive Function (ISO 04 26) - Prescribed
+    {
+        name: "Assistive products for memory training",
+        category: "Communication and Information",
+        description: "Products to assist with memory training and cognitive rehabilitation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 03",
+        keywords: ["memory", "training", "cognitive", "rehabilitation"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training in sequencing",
+        category: "Communication and Information",
+        description: "Products to assist with training in sequencing skills.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 06",
+        keywords: ["sequencing", "training", "cognitive", "order"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training in attention",
+        category: "Communication and Information",
+        description: "Products to assist with attention training and focus.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 09",
+        keywords: ["attention", "training", "cognitive", "focus", "concentration"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training in concept development",
+        category: "Communication and Information",
+        description: "Products to assist with concept development training.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 12",
+        keywords: ["concept", "development", "training", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training in classification",
+        category: "Communication and Information",
+        description: "Products to assist with classification and categorisation training.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 15",
+        keywords: ["classification", "categorisation", "training", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training in problem solving",
+        category: "Communication and Information",
+        description: "Products to assist with problem solving training.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 18",
+        keywords: ["problem solving", "training", "cognitive", "reasoning"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for training inductive/deductive reasoning",
+        category: "Communication and Information",
+        description: "Products to assist with inductive and deductive reasoning training.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 21",
+        keywords: ["reasoning", "inductive", "deductive", "training", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for developing and enhancing understanding of cause and effect",
+        category: "Communication and Information",
+        description: "Products to assist with understanding cause and effect relationships.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 24",
+        keywords: ["cause", "effect", "understanding", "training", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for social training",
+        category: "Communication and Information",
+        description: "Products to assist with social skills training.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 27",
+        keywords: ["social", "training", "skills", "interaction", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for understanding of time",
+        category: "Communication and Information",
+        description: "Products to assist with understanding and perceiving time.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 30",
+        keywords: ["time", "understanding", "training", "cognitive"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Other products to enhance cognitive function",
+        category: "Communication and Information",
+        description: "Other assistive products for enhancing cognitive function.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 26 88",
+        keywords: ["cognitive", "function", "enhancement", "training"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Recreation and Leisure - Sports (ISO 30 09)
+    {
+        name: "Assistive products and tools for counting units",
+        category: "Recreation and Leisure",
+        description: "Products to assist with counting and keeping score.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 03",
+        keywords: ["counting", "score", "units", "tally"]
+    },
+    {
+        name: "Assistive products for team ball sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for team ball sports participation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 06",
+        keywords: ["sports", "ball", "team", "football", "basketball", "soccer"]
+    },
+    {
+        name: "Assistive products for archery",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for archery participation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 09",
+        keywords: ["archery", "bow", "arrow", "sports"]
+    },
+    {
+        name: "Assistive products for boating",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for boating and water activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 12",
+        keywords: ["boating", "water", "kayak", "canoe", "sailing"]
+    },
+    {
+        name: "Assistive products for target sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for target sports participation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 15",
+        keywords: ["target", "sports", "darts", "bowls"]
+    },
+    {
+        name: "Assistive products for equestrianism",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for horse riding and equestrian activities.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 09 18",
+        keywords: ["horse", "riding", "equestrian", "saddle"]
+    },
+    {
+        name: "Assistive products for fencing",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for fencing participation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 21",
+        keywords: ["fencing", "sword", "sports"]
+    },
+    {
+        name: "Assistive products for aviation",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for aviation and flying activities.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 09 24",
+        keywords: ["aviation", "flying", "aircraft", "gliding"]
+    },
+    {
+        name: "Assistive products for racquet and paddle sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for tennis, badminton, table tennis and similar sports.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 27",
+        keywords: ["racquet", "paddle", "tennis", "badminton", "table tennis"]
+    },
+    {
+        name: "Assistive products for shooting",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for shooting sports participation.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 09 30",
+        keywords: ["shooting", "rifle", "pistol", "sports"]
+    },
+    {
+        name: "Assistive products for swimming and water sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for swimming and water sports participation.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 33",
+        keywords: ["swimming", "water", "pool", "aquatic", "sports"]
+    },
+    {
+        name: "Assistive products for winter sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for skiing, snowboarding and other winter sports.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 09 36",
+        keywords: ["winter", "skiing", "snowboard", "ice", "sports"]
+    },
+    {
+        name: "Assistive products for other sports",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for other sports not elsewhere classified.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 39",
+        keywords: ["sports", "recreation", "other"]
+    },
+    {
+        name: "Equipment for track and field",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for track and field athletics.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 09 42",
+        keywords: ["track", "field", "athletics", "running", "throwing"]
+    },
+
+    // Playing and Composing Music (ISO 30 12)
+    {
+        name: "Assistive products for playing and composing music",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for playing musical instruments and composing music.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 12 03",
+        keywords: ["music", "instrument", "playing", "composing", "adapted"]
+    },
+
+    // Producing Photos, Films and Videos (ISO 30 15)
+    {
+        name: "Assistive products for producing photos, films and videos",
+        category: "Recreation and Leisure",
+        description: "Adapted equipment for photography, filmmaking and video production.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 15 03",
+        keywords: ["photography", "camera", "film", "video", "production"]
+    },
+
+    // Handicraft Tools, Materials and Equipment (ISO 30 18)
+    {
+        name: "Tools, materials and equipment for textile handicraft",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for knitting, sewing, weaving and textile crafts.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 03",
+        keywords: ["textile", "knitting", "sewing", "weaving", "handicraft"]
+    },
+    {
+        name: "Tools, materials and equipment for pottery",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for pottery and ceramics.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 06",
+        keywords: ["pottery", "ceramics", "clay", "handicraft"]
+    },
+    {
+        name: "Tools, materials and equipment for woodworking",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for woodworking and carpentry crafts.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 09",
+        keywords: ["woodworking", "carpentry", "wood", "handicraft"]
+    },
+    {
+        name: "Tools, materials and equipment for metalworking",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for metalworking crafts.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 12",
+        keywords: ["metalworking", "metal", "handicraft"]
+    },
+    {
+        name: "Tools, materials and equipment for creative pictorial design",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for painting, drawing and pictorial arts.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 15",
+        keywords: ["painting", "drawing", "art", "pictorial", "handicraft"]
+    },
+    {
+        name: "Tools, materials and equipment for handicrafts with other materials",
+        category: "Recreation and Leisure",
+        description: "Adapted tools for other handicraft activities.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 18 18",
+        keywords: ["handicraft", "craft", "hobby", "materials"]
+    },
+
+    // Smoking (ISO 30 30)
+    {
+        name: "Devices that enable a person to smoke cigarettes, cigars and pipes",
+        category: "Recreation and Leisure",
+        description: "Adapted devices to assist with smoking.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 30 03",
+        keywords: ["smoking", "cigarette", "cigar", "pipe", "holder"]
+    },
+
+    // Play (ISO 30 03)
+    {
+        name: "Toys",
+        category: "Recreation and Leisure",
+        description: "Adapted toys for play and development.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "30 03 03",
+        keywords: ["toys", "play", "games", "children"]
+    },
+    {
+        name: "Playground equipment",
+        category: "Recreation and Leisure",
+        description: "Adapted playground equipment for outdoor play.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 03 06",
+        keywords: ["playground", "equipment", "outdoor", "play", "children"]
+    },
+
+    // Workplace Furniture and Furnishing Elements (ISO 28 03)
+    {
+        name: "Workdesks",
+        category: "Workplace",
+        description: "Adapted desks for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 03 03",
+        keywords: ["desk", "workdesk", "office", "workplace", "furniture"]
+    },
+    {
+        name: "Workbenches",
+        category: "Workplace",
+        description: "Adapted workbenches for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 03 06",
+        keywords: ["workbench", "bench", "workshop", "workplace"]
+    },
+    {
+        name: "Work and office chairs",
+        category: "Workplace",
+        description: "Adapted chairs for office and workplace use.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 03 09",
+        keywords: ["chair", "office", "workplace", "seating", "ergonomic"]
+    },
+    {
+        name: "Stools and standing chairs for workplaces",
+        category: "Workplace",
+        description: "Stools and standing supports for workplace use.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 03 12",
+        keywords: ["stool", "standing", "chair", "workplace", "perch"]
+    },
+    {
+        name: "Storage and supply systems in workplaces",
+        category: "Workplace",
+        description: "Adapted storage and supply systems for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 03 15",
+        keywords: ["storage", "supply", "shelving", "workplace", "organisation"]
+    },
+    {
+        name: "Workplace mats",
+        category: "Workplace",
+        description: "Anti-fatigue and ergonomic mats for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 03 18",
+        keywords: ["mat", "anti-fatigue", "floor", "workplace", "standing"]
+    },
+    {
+        name: "Partition walls",
+        category: "Workplace",
+        description: "Partition walls and dividers for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 03 21",
+        keywords: ["partition", "wall", "divider", "workplace", "screen"]
+    },
+
+    // Transporting Objects in Workplaces (ISO 28 06)
+    {
+        name: "Hand operated industrial transport equipment",
+        category: "Workplace",
+        description: "Manual transport equipment for moving objects in workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 03",
+        keywords: ["transport", "manual", "hand", "trolley", "workplace"]
+    },
+    {
+        name: "Powered pedestrian-operated industrial transport equipment",
+        category: "Workplace",
+        description: "Powered walk-behind transport equipment for workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 06",
+        keywords: ["transport", "powered", "pedestrian", "walk-behind", "workplace"]
+    },
+    {
+        name: "Hand operated lifting trucks",
+        category: "Workplace",
+        description: "Manual pallet trucks and lifting equipment.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 09",
+        keywords: ["lifting", "truck", "pallet", "manual", "workplace"]
+    },
+    {
+        name: "Powered rider-operated industrial transport vehicles",
+        category: "Workplace",
+        description: "Powered ride-on transport vehicles for workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 12",
+        keywords: ["transport", "powered", "rider", "vehicle", "workplace"]
+    },
+    {
+        name: "Powered industrial vehicles used to lift and transport materials",
+        category: "Workplace",
+        description: "Forklifts and powered lifting vehicles for workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 15",
+        keywords: ["forklift", "lifting", "powered", "materials", "workplace"]
+    },
+    {
+        name: "Conveyors",
+        category: "Workplace",
+        description: "Conveyor systems for moving materials in workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 06 18",
+        keywords: ["conveyor", "belt", "transport", "materials", "workplace"]
+    },
+
+    // Hoisting and Repositioning Objects in Workplaces (ISO 28 09)
+    {
+        name: "Cranes, tackles and load handling attachments",
+        category: "Workplace",
+        description: "Lifting equipment for hoisting loads in workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 09 03",
+        keywords: ["crane", "hoist", "tackle", "lifting", "workplace"]
+    },
+    {
+        name: "Manipulators and weight balancers",
+        category: "Workplace",
+        description: "Equipment for manipulating and balancing heavy objects.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 09 06",
+        keywords: ["manipulator", "balancer", "weight", "lifting", "workplace"]
+    },
+    {
+        name: "Lifting and positioning systems for workplaces",
+        category: "Workplace",
+        description: "Systems for lifting and positioning objects in workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 09 09",
+        keywords: ["lifting", "positioning", "system", "workplace"]
+    },
+    {
+        name: "Lifting platforms for workplaces",
+        category: "Workplace",
+        description: "Elevated work platforms for workplace use.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 09 12",
+        keywords: ["platform", "lifting", "elevated", "workplace"]
+    },
+
+    // Fixing, Reaching and Grasping Objects in Workplaces (ISO 28 12)
+    {
+        name: "Assistive products for carrying and gripping workpieces and tools",
+        category: "Workplace",
+        description: "Devices for carrying and gripping items in workplaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 12 03",
+        keywords: ["carrying", "gripping", "tools", "workpiece", "workplace"]
+    },
+    {
+        name: "Assistive products for fixing and positioning workpieces and tools",
+        category: "Workplace",
+        description: "Devices for fixing and positioning items in workplaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 12 06",
+        keywords: ["fixing", "positioning", "tools", "workpiece", "workplace", "clamp"]
+    },
+
+    // Machines and Tools for Use in Workplaces (ISO 28 15)
+    {
+        name: "Manually operated hand tools",
+        category: "Workplace",
+        description: "Adapted manual hand tools for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 15 03",
+        keywords: ["hand tools", "manual", "tools", "workplace"]
+    },
+    {
+        name: "Powered hand tools",
+        category: "Workplace",
+        description: "Adapted powered hand tools for workplace use.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 15 06",
+        keywords: ["power tools", "powered", "hand tools", "workplace"]
+    },
+    {
+        name: "Machines for production and processing of commercial goods",
+        category: "Workplace",
+        description: "Production machinery adapted for accessibility.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 15 09",
+        keywords: ["machinery", "production", "processing", "commercial", "workplace"]
+    },
+    {
+        name: "Landscaping, agricultural and construction machines and equipment",
+        category: "Workplace",
+        description: "Adapted outdoor and construction equipment.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 15 12",
+        keywords: ["landscaping", "agricultural", "construction", "equipment", "workplace"]
+    },
+    {
+        name: "Cleaning machines and equipment for workplaces",
+        category: "Workplace",
+        description: "Adapted cleaning equipment for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 15 15",
+        keywords: ["cleaning", "machines", "equipment", "workplace"]
+    },
+    {
+        name: "Accessories for machines and tools",
+        category: "Workplace",
+        description: "Adapted accessories for workplace machines and tools.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 15 18",
+        keywords: ["accessories", "machines", "tools", "workplace"]
+    },
+    {
+        name: "Workplace robots",
+        category: "Workplace",
+        description: "Robotic systems to assist in workplace tasks.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 15 21",
+        keywords: ["robot", "automation", "workplace", "assistive"]
+    },
+
+    // Devices for Testing and Monitoring in Workplaces (ISO 28 18)
+    {
+        name: "Measuring instruments and equipment for workplaces",
+        category: "Workplace",
+        description: "Adapted measuring instruments for workplace use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 18 03",
+        keywords: ["measuring", "instruments", "equipment", "workplace"]
+    },
+    {
+        name: "Quality assurance devices for workplaces",
+        category: "Workplace",
+        description: "Quality assurance and testing devices for workplaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 18 06",
+        keywords: ["quality", "assurance", "testing", "workplace"]
+    },
+
+    // Office Administration (ISO 28 21)
+    {
+        name: "Assistive products for organising, sorting and filing paper documents",
+        category: "Workplace",
+        description: "Products to assist with document organisation and filing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 21 03",
+        keywords: ["filing", "documents", "organising", "sorting", "office"]
+    },
+    {
+        name: "Assistive products for processing mail",
+        category: "Workplace",
+        description: "Products to assist with mail handling and processing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 21 06",
+        keywords: ["mail", "processing", "letters", "office"]
+    },
+    {
+        name: "Office machines and equipment",
+        category: "Workplace",
+        description: "Adapted office machines and equipment.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 21 09",
+        keywords: ["office", "machines", "equipment", "printer", "copier"]
+    },
+    {
+        name: "Office software and industrial software",
+        category: "Workplace",
+        description: "Accessible software for office and industrial use.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 21 12",
+        keywords: ["software", "office", "industrial", "accessible", "computer"]
+    },
+
+    // Health Protection and Safety in Workplaces (ISO 28 24)
+    {
+        name: "Personal protective equipment for workplaces",
+        category: "Workplace",
+        description: "Personal protective equipment adapted for disability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 24 03",
+        keywords: ["PPE", "protective", "equipment", "safety", "workplace"]
+    },
+    {
+        name: "Assistive products for controlling illumination in workplaces",
+        category: "Workplace",
+        description: "Products to control lighting in workplace environments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 24 06",
+        keywords: ["lighting", "illumination", "workplace", "control"]
+    },
+    {
+        name: "Assistive products for reducing vibration in workplaces",
+        category: "Workplace",
+        description: "Products to reduce harmful vibrations in workplaces.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 24 09",
+        keywords: ["vibration", "reduction", "damping", "workplace"]
+    },
+    {
+        name: "Air cleaners for workplaces",
+        category: "Workplace",
+        description: "Air cleaning and filtration equipment for workplaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 24 12",
+        keywords: ["air", "cleaner", "filter", "purifier", "workplace"]
+    },
+    {
+        name: "Assistive products for noise reduction in workplaces",
+        category: "Workplace",
+        description: "Products to reduce noise in workplace environments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 24 15",
+        keywords: ["noise", "reduction", "acoustic", "workplace", "hearing"]
+    },
+    {
+        name: "Safety devices for workplaces and surrounding areas at work",
+        category: "Workplace",
+        description: "Safety devices and systems for workplace protection.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "28 24 18",
+        keywords: ["safety", "devices", "protection", "workplace"]
+    },
+    {
+        name: "Special software preventing and reducing physical or mental stress",
+        category: "Workplace",
+        description: "Software to help manage workplace stress and ergonomics.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 24 21",
+        keywords: ["software", "stress", "ergonomic", "mental", "physical", "workplace"]
+    },
+    {
+        name: "Assistive products for recuperation during work processes",
+        category: "Workplace",
+        description: "Products to assist with rest and recovery during work.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 24 24",
+        keywords: ["recuperation", "rest", "recovery", "workplace", "break"]
+    },
+
+    // Vocational Assessment and Training (ISO 28 27)
+    {
+        name: "Assistive products for vocational assessment and vocational guidance",
+        category: "Workplace",
+        description: "Products to assist with career assessment and guidance.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 27 03",
+        keywords: ["vocational", "assessment", "guidance", "career", "workplace"]
+    },
+    {
+        name: "Assistive products for vocational training",
+        category: "Workplace",
+        description: "Products to assist with job training and skill development.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "28 27 06",
+        keywords: ["vocational", "training", "skills", "job", "workplace"]
+    },
+
+    // Mass Transit Vehicles (ISO 12 11)
+    {
+        name: "Buses with height-adjustable chassis",
+        category: "Mobility",
+        description: "Accessible buses with lowering chassis for easier boarding.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 11 03",
+        keywords: ["bus", "accessible", "height-adjustable", "kneeling", "transit"]
+    },
+    {
+        name: "Trains with low floors",
+        category: "Mobility",
+        description: "Accessible trains with low-floor entry for easier boarding.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 11 06",
+        keywords: ["train", "accessible", "low-floor", "transit", "rail"]
+    },
+
+    // Diverse Human Powered Vehicles for Children (ISO 12 27)
+    {
+        name: "Prams and buggies",
+        category: "Mobility",
+        description: "Adapted prams and buggies for children with disability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "12 27 03",
+        keywords: ["pram", "buggy", "stroller", "children", "transport"]
+    },
+
+    // Absorbing Products for Children (ISO 09 30)
+    {
+        name: "Pads insert type for children, single use",
+        category: "Personal Care and Protection",
+        description: "Disposable insert pads for children's continence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 30 15",
+        keywords: ["pads", "children", "disposable", "insert", "continence"]
+    },
+    {
+        name: "Products for children with fastener system, single use",
+        category: "Personal Care and Protection",
+        description: "Disposable fastening nappies for children's continence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 30 18",
+        keywords: ["nappy", "children", "disposable", "fastener", "continence"]
+    },
+    {
+        name: "Products for children resembling underwear, single use",
+        category: "Personal Care and Protection",
+        description: "Disposable pull-up pants for children's continence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 30 21",
+        keywords: ["pull-up", "children", "disposable", "underwear", "continence"]
+    },
+    {
+        name: "Absorbent products for children, washable",
+        category: "Personal Care and Protection",
+        description: "Reusable washable continence products for children.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 30 24",
+        keywords: ["reusable", "children", "washable", "cloth", "continence"]
     }
 ];
 
