@@ -4501,6 +4501,1080 @@ const athmData = [
         keywords: ["headphones", "earphones", "headset", "audio", "listening"]
     },
 
+    // =====================================================
+    // ASSISTANCE DOGS - MOBILITY (Prescribed)
+    // =====================================================
+    {
+        name: "Assistance dog maintenance",
+        category: "Mobility",
+        description: "Essential assistance dog maintenance costs including animal vaccinations, deworming and flea treatments, essential grooming, dog food, and vet bills. Does not include non-essential costs such as boarding kennel fees or grooming for aesthetic reasons.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "12",
+        keywords: ["assistance dog", "guide dog", "service dog", "maintenance", "vet", "vaccinations"],
+        conditions: "Dog must meet Health Direct definition of assistance dog and be required to enable participation in activities of domestic life. Funding is separate from Physical Assistance Dogs Program. Participants may only claim where they have received separate funding and the dog meets the definition."
+    },
+
+    // =====================================================
+    // EXCLUSIONS - CURRENTLY FUNDED BY OTHER PROGRAMS
+    // =====================================================
+
+    // Managing Body Functions - Respiration (ISO 04 03)
+    {
+        name: "Inhaled-air pretreatment devices",
+        category: "Managing Body Functions",
+        description: "Devices for pretreatment of inhaled air.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 03",
+        keywords: ["respiration", "inhaled", "air", "pretreatment"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Inhalation equipment",
+        category: "Managing Body Functions",
+        description: "Equipment for inhalation therapy.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 06",
+        keywords: ["respiration", "inhalation", "therapy", "breathing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Respirators",
+        category: "Managing Body Functions",
+        description: "Mechanical breathing assistance devices.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 09",
+        keywords: ["respiration", "respirator", "ventilator", "breathing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Oxygen units",
+        category: "Managing Body Functions",
+        description: "Oxygen therapy and delivery equipment.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 12",
+        keywords: ["oxygen", "respiration", "therapy", "breathing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Aspirators",
+        category: "Managing Body Functions",
+        description: "Devices for aspiration and suction.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 15",
+        keywords: ["aspirator", "suction", "respiration"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Benches and cushions for respiration",
+        category: "Managing Body Functions",
+        description: "Supportive positioning aids for respiratory function.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 18",
+        keywords: ["respiration", "bench", "cushion", "positioning"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Respiration muscle trainers",
+        category: "Managing Body Functions",
+        description: "Devices for training and strengthening respiratory muscles.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 21",
+        keywords: ["respiration", "muscle", "trainer", "breathing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Uvula supports",
+        category: "Managing Body Functions",
+        description: "Devices for supporting the uvula during breathing.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 03 24",
+        keywords: ["uvula", "support", "respiration", "sleep"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Supporting and Stimulating Blood Circulation (ISO 04 06)
+    {
+        name: "Air-filled garments and compression units for managing circulation",
+        category: "Managing Body Functions",
+        description: "Air-filled garments and compression units for managing blood circulation.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 06",
+        keywords: ["compression", "circulation", "blood", "garment"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Stimulating Body Control and Conceptualisation (ISO 04 08)
+    {
+        name: "Garments for body posture and control",
+        category: "Managing Body Functions",
+        description: "Garments that facilitate body posture and control or body conceptualisation with even pressure; clothes used to enhance daily activities (for example, compression garments, bandages, tapes).",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 08",
+        keywords: ["compression", "garment", "posture", "body control", "bandage", "tape"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Light Therapy (ISO 04 09)
+    {
+        name: "Ultraviolet A (UVA) lamps",
+        category: "Managing Body Functions",
+        description: "UVA light therapy lamps.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 09 03",
+        keywords: ["light therapy", "UVA", "ultraviolet", "lamp"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Selective Ultraviolet Phototherapy (SUP) and Ultraviolet B (UVB) lamps",
+        category: "Managing Body Functions",
+        description: "SUP and UVB light therapy lamps.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 09 06",
+        keywords: ["light therapy", "SUP", "UVB", "ultraviolet", "lamp", "phototherapy"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Protective eyeglasses for light therapy",
+        category: "Managing Body Functions",
+        description: "Protective eyewear for use during light therapy.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 09 09",
+        keywords: ["light therapy", "eyeglasses", "protective", "eyewear"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Dialysis Therapy (ISO 04 15)
+    {
+        name: "Haemodialysis units (HD)",
+        category: "Managing Body Functions",
+        description: "Haemodialysis equipment for kidney dialysis.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 15 03",
+        keywords: ["dialysis", "haemodialysis", "HD", "kidney"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Units for continuous ambulant peritoneal dialysis (CAP)",
+        category: "Managing Body Functions",
+        description: "Equipment for continuous ambulant peritoneal dialysis.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 15 06",
+        keywords: ["dialysis", "peritoneal", "CAP", "kidney"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Instrument sets for dialysis",
+        category: "Managing Body Functions",
+        description: "Instrument sets and accessories for dialysis.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 15 09",
+        keywords: ["dialysis", "instruments", "accessories"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Administering Medicines (ISO 04 19)
+    {
+        name: "Injection guns",
+        category: "Managing Body Functions",
+        description: "Devices for administering injections.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 03",
+        keywords: ["injection", "gun", "medicine", "administering"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Injection syringes (single-use and multi-use)",
+        category: "Managing Body Functions",
+        description: "Syringes for administering injections.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 06",
+        keywords: ["injection", "syringe", "medicine", "administering"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Injection needles (single-use, multi-use or permanent use)",
+        category: "Managing Body Functions",
+        description: "Needles for administering injections.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 09",
+        keywords: ["injection", "needle", "medicine", "administering"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Infusion pumps",
+        category: "Managing Body Functions",
+        description: "Pumps for infusion of medicines.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 12",
+        keywords: ["infusion", "pump", "medicine", "administering"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Unpowered infusion systems",
+        category: "Managing Body Functions",
+        description: "Gravity-fed and other unpowered infusion systems.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 15",
+        keywords: ["infusion", "gravity", "unpowered", "medicine"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Other assistive products for administering medicines",
+        category: "Managing Body Functions",
+        description: "Other assistive products for administering medicines.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 19 18",
+        keywords: ["medicine", "administering", "assistive"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Sterilising Equipment (ISO 04 22)
+    {
+        name: "Sterilising equipment",
+        category: "Managing Body Functions",
+        description: "Equipment for sterilisation.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 22",
+        keywords: ["sterilising", "sterilization", "equipment"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Physical, Physiological and Biochemical Test Equipment (ISO 04 24)
+    {
+        name: "Urine analysis equipment",
+        category: "Managing Body Functions",
+        description: "Equipment for testing and analysing urine.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 03",
+        keywords: ["urine", "analysis", "test", "equipment"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Blood pressure meters (sphygmomanometers)",
+        category: "Managing Body Functions",
+        description: "Devices for measuring blood pressure.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 06",
+        keywords: ["blood pressure", "sphygmomanometer", "meter"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Blood analysis devices, equipment and materials",
+        category: "Managing Body Functions",
+        description: "Devices and materials for analysing blood.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 09",
+        keywords: ["blood", "analysis", "glucose", "test"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Electrocardiogram (ECG) equipment",
+        category: "Managing Body Functions",
+        description: "Equipment for monitoring heart electrical activity.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 12",
+        keywords: ["ECG", "electrocardiogram", "heart", "monitor"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Physical test and evaluation materials",
+        category: "Managing Body Functions",
+        description: "Materials for physical testing and evaluation.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 15",
+        keywords: ["physical", "test", "evaluation", "materials"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Stethoscopes",
+        category: "Managing Body Functions",
+        description: "Devices for listening to internal body sounds.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 18",
+        keywords: ["stethoscope", "auscultation", "listening"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Body thermometers",
+        category: "Managing Body Functions",
+        description: "Devices for measuring body temperature.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 21",
+        keywords: ["thermometer", "temperature", "body"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Personal scales",
+        category: "Managing Body Functions",
+        description: "Scales for measuring body weight.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 24",
+        keywords: ["scales", "weight", "personal"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Personal scales for seated person",
+        category: "Managing Body Functions",
+        description: "Scales for measuring body weight while seated.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 27",
+        keywords: ["scales", "weight", "seated", "wheelchair"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Respiration meters",
+        category: "Managing Body Functions",
+        description: "Devices for measuring respiratory function.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 24 30",
+        keywords: ["respiration", "meter", "lung", "breathing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Cognitive Test and Evaluation Materials (ISO 04 25)
+    {
+        name: "Language test and evaluation materials",
+        category: "Managing Body Functions",
+        description: "Materials for testing and evaluating language abilities.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 25 03",
+        keywords: ["language", "test", "evaluation", "cognitive"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Psychological test and evaluation materials",
+        category: "Managing Body Functions",
+        description: "Materials for psychological testing and evaluation.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 25 06",
+        keywords: ["psychological", "test", "evaluation", "cognitive"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Stimulators for Treatment on Cellular and Tissue Level (ISO 04 27)
+    {
+        name: "Muscle stimulators not used as orthoses",
+        category: "Managing Body Functions",
+        description: "Electrical muscle stimulation devices not used as orthoses.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 27 03",
+        keywords: ["muscle", "stimulator", "EMS", "electrical"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Vibrators",
+        category: "Managing Body Functions",
+        description: "Vibration devices for therapeutic purposes.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 27 06",
+        keywords: ["vibrator", "vibration", "therapy"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for stimulating cell growth",
+        category: "Managing Body Functions",
+        description: "Products for stimulating cell growth and regeneration.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 27 09",
+        keywords: ["cell growth", "stimulation", "regeneration"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Stimulators used in connection with implants",
+        category: "Managing Body Functions",
+        description: "Stimulation devices used with implanted devices.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 27 12",
+        keywords: ["stimulator", "implant", "electrical"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Stimulating Senses (ISO 04 28)
+    {
+        name: "Assistive products for stimulating senses with light",
+        category: "Managing Body Functions",
+        description: "Products for sensory stimulation using light.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 03",
+        keywords: ["sensory", "stimulation", "light", "visual"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for stimulating senses with sound",
+        category: "Managing Body Functions",
+        description: "Products for sensory stimulation using sound.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 06",
+        keywords: ["sensory", "stimulation", "sound", "auditory"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for stimulating senses by physical touch",
+        category: "Managing Body Functions",
+        description: "Products for sensory stimulation using physical touch.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 09",
+        keywords: ["sensory", "stimulation", "touch", "tactile"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for training in perceptual discrimination and matching",
+        category: "Managing Body Functions",
+        description: "Products for training perceptual discrimination and matching skills.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 12",
+        keywords: ["perceptual", "discrimination", "matching", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for training in perceptual coordination",
+        category: "Managing Body Functions",
+        description: "Products for training perceptual coordination skills.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 15",
+        keywords: ["perceptual", "coordination", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for training in sensory integration",
+        category: "Managing Body Functions",
+        description: "Products for training sensory integration skills.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 28 18",
+        keywords: ["sensory", "integration", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Pain Relief (ISO 04 29)
+    {
+        name: "Equipment for pain relief by physiological manipulation or psychological distraction",
+        category: "Managing Body Functions",
+        description: "Equipment for pain relief through physiological manipulation or psychological distraction techniques.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 29",
+        keywords: ["pain relief", "physiological", "psychological", "distraction"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Heat or Cold Treatment (ISO 04 30)
+    {
+        name: "Assistive products for heat treatment",
+        category: "Managing Body Functions",
+        description: "Products for therapeutic heat application.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 30 03",
+        keywords: ["heat", "treatment", "therapy", "thermal"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for cold treatment",
+        category: "Managing Body Functions",
+        description: "Products for therapeutic cold application.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 30 06",
+        keywords: ["cold", "treatment", "therapy", "cryotherapy"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Spinal Traction (ISO 04 45)
+    {
+        name: "Devices used to produce stretching of the spine",
+        category: "Managing Body Functions",
+        description: "Traction devices for stretching the spine.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 45",
+        keywords: ["spinal", "traction", "stretching", "spine"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Equipment for Movement, Strength and Balance Training (ISO 04 48)
+    {
+        name: "Exercise and ergometer cycles",
+        category: "Managing Body Functions",
+        description: "Stationary cycles for exercise and ergometer testing.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 03",
+        keywords: ["exercise", "cycle", "ergometer", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for exercising gait pattern",
+        category: "Managing Body Functions",
+        description: "Products for training and exercising gait patterns.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 06",
+        keywords: ["gait", "pattern", "training", "walking"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Finger and hand exercise devices",
+        category: "Managing Body Functions",
+        description: "Devices for exercising fingers and hands.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 09",
+        keywords: ["finger", "hand", "exercise", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Arm exercise devices, trunk exercise devices and leg exercise devices",
+        category: "Managing Body Functions",
+        description: "Devices for exercising arms, trunk and legs.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 12",
+        keywords: ["arm", "trunk", "leg", "exercise", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Biofeedback devices for movement, strength and balance training",
+        category: "Managing Body Functions",
+        description: "Biofeedback devices used in movement, strength and balance training.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 15",
+        keywords: ["biofeedback", "movement", "strength", "balance", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for body positioning during therapy",
+        category: "Managing Body Functions",
+        description: "Products for positioning the body during therapeutic activities.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 18",
+        keywords: ["positioning", "therapy", "body"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Jaw exercise devices",
+        category: "Managing Body Functions",
+        description: "Devices for exercising the jaw.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 21",
+        keywords: ["jaw", "exercise", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for training the pelvic floor",
+        category: "Managing Body Functions",
+        description: "Products for pelvic floor training and exercises.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 24",
+        keywords: ["pelvic floor", "training", "exercise"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Assistive products for training in personal mobility",
+        category: "Managing Body Functions",
+        description: "Products for training personal mobility skills.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 27",
+        keywords: ["mobility", "training", "personal"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Standing frames and supports for standing",
+        category: "Managing Body Functions",
+        description: "Frames and supports to assist with standing during training.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 30",
+        keywords: ["standing", "frame", "support", "training"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Tilting tables",
+        category: "Managing Body Functions",
+        description: "Tables that tilt for therapeutic positioning.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 48 33",
+        keywords: ["tilting", "table", "therapy", "positioning"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Wound Care Products (ISO 04 49)
+    {
+        name: "Wound care products",
+        category: "Managing Body Functions",
+        description: "Products for wound care and management.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "04 49",
+        keywords: ["wound", "care", "dressing", "bandage"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Self-Care - Clothes and Shoes (ISO 09 03)
+    {
+        name: "Headwear",
+        category: "Self-Care",
+        description: "Hats, caps and other headwear.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 03",
+        keywords: ["headwear", "hat", "cap", "clothing"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Tracheostomy Care (ISO 09 15)
+    {
+        name: "Tracheostoma cannulas",
+        category: "Self-Care",
+        description: "Cannulas for tracheostomy care.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 15 03",
+        keywords: ["tracheostomy", "cannula", "airway"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Laryngectomy tubes",
+        category: "Self-Care",
+        description: "Tubes for laryngectomy care.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 15 06",
+        keywords: ["laryngectomy", "tube", "airway"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Tracheostoma protectors",
+        category: "Self-Care",
+        description: "Protective devices for tracheostoma.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 15 09",
+        keywords: ["tracheostoma", "protector", "cover"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Accessories for tracheostomy care",
+        category: "Self-Care",
+        description: "Accessories and supplies for tracheostomy care.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 15 12",
+        keywords: ["tracheostomy", "accessories", "care"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Ostomy Care (ISO 09 18) - Available through Stoma Appliance Scheme
+    {
+        name: "One-piece effluent systems for ostomy care",
+        category: "Self-Care",
+        description: "One-piece ostomy bag systems.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 03",
+        keywords: ["ostomy", "stoma", "one-piece", "bag"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Plates for two-piece effluent systems for ostomy care",
+        category: "Self-Care",
+        description: "Base plates for two-piece ostomy systems.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 06",
+        keywords: ["ostomy", "stoma", "two-piece", "plate", "flange"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Bags for two-piece effluent systems for ostomy care",
+        category: "Self-Care",
+        description: "Bags for two-piece ostomy systems.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 09",
+        keywords: ["ostomy", "stoma", "two-piece", "bag"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Additional bags for ostomy care",
+        category: "Self-Care",
+        description: "Additional collection bags for ostomy care.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 12",
+        keywords: ["ostomy", "stoma", "bag", "additional"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Filling products for ostomy care",
+        category: "Self-Care",
+        description: "Products for filling and sealing ostomy appliances.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 15",
+        keywords: ["ostomy", "stoma", "filling", "paste"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Assistive products for supporting and holding in place effluent systems for ostomy care",
+        category: "Self-Care",
+        description: "Products for supporting and securing ostomy appliances.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 18",
+        keywords: ["ostomy", "stoma", "support", "belt"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Assistive products for dilatating stoma",
+        category: "Self-Care",
+        description: "Products for dilating stoma.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 21",
+        keywords: ["ostomy", "stoma", "dilating", "dilator"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Assistive products for bowel irrigation",
+        category: "Self-Care",
+        description: "Products for bowel irrigation.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 24",
+        keywords: ["bowel", "irrigation", "ostomy", "stoma"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Assistive products for draining or flushing internal stoma",
+        category: "Self-Care",
+        description: "Products for draining or flushing internal stoma.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 27",
+        keywords: ["stoma", "draining", "flushing", "internal"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Assistive products for sealing stoma",
+        category: "Self-Care",
+        description: "Products for sealing stoma.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 30",
+        keywords: ["stoma", "sealing", "seal"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Post-operative ostomy bags and accessories",
+        category: "Self-Care",
+        description: "Ostomy bags and accessories for post-operative use.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 33",
+        keywords: ["ostomy", "stoma", "post-operative", "surgery"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+    {
+        name: "Accessories for ostomy care",
+        category: "Self-Care",
+        description: "General accessories for ostomy care.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "09 18 36",
+        keywords: ["ostomy", "stoma", "accessories"],
+        conditions: "Excluded - available through the Stoma Appliance Scheme"
+    },
+
+    // Skin Care, Skin Protection and Skin Cleaning (ISO 09 21)
+    {
+        name: "Adhesive solvents",
+        category: "Self-Care",
+        description: "Solvents for removing adhesives from skin.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 03",
+        keywords: ["adhesive", "solvent", "skin", "remover"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Skin detergents",
+        category: "Self-Care",
+        description: "Detergents for cleaning skin.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 06",
+        keywords: ["skin", "detergent", "cleanser", "wash"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Disinfectants",
+        category: "Self-Care",
+        description: "Products for disinfecting skin.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 09",
+        keywords: ["disinfectant", "skin", "antiseptic"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Sealing materials",
+        category: "Self-Care",
+        description: "Materials for sealing and protecting skin.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 12",
+        keywords: ["sealing", "skin", "barrier"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Skin-protective agents",
+        category: "Self-Care",
+        description: "Agents for protecting skin.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 15",
+        keywords: ["skin", "protective", "barrier", "cream"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Callous smoothers",
+        category: "Self-Care",
+        description: "Devices for smoothing callouses.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 21 18",
+        keywords: ["callous", "smoother", "foot", "skin"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Management of Menstruation (ISO 09 32)
+    {
+        name: "Assistive products to manage menstrual flow",
+        category: "Self-Care",
+        description: "Products for managing menstrual flow.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 32",
+        keywords: ["menstruation", "menstrual", "period"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Washing, Bathing and Showering (ISO 09 33)
+    {
+        name: "Bath thermometers",
+        category: "Self-Care",
+        description: "Thermometers for measuring bath water temperature.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 33 06",
+        keywords: ["bath", "thermometer", "temperature", "water"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Sexual Activity (ISO 09 54)
+    {
+        name: "Condoms",
+        category: "Self-Care",
+        description: "Contraceptive devices.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 54 03",
+        keywords: ["condom", "contraceptive", "sexual"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Mobility - Cars, Vans and Pick-up Trucks (ISO 12 10)
+    {
+        name: "Cars, vans and pick-up trucks with height-adjustable chassis",
+        category: "Mobility",
+        description: "Vehicles with height-adjustable chassis for accessibility.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 10 03",
+        keywords: ["car", "van", "vehicle", "height-adjustable", "chassis"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Low-speed cars",
+        category: "Mobility",
+        description: "Low-speed vehicles for mobility.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 10 06",
+        keywords: ["car", "low-speed", "vehicle"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Cars, vans and pick-up trucks with raised roof",
+        category: "Mobility",
+        description: "Vehicles with raised roof for wheelchair access.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 10 09",
+        keywords: ["car", "van", "vehicle", "raised roof", "wheelchair"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Diverse Motorised Vehicles (ISO 12 17)
+    {
+        name: "Powered stair-climbing transporters",
+        category: "Mobility",
+        description: "Powered devices for climbing stairs with passengers.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 17",
+        keywords: ["stair", "climbing", "transporter", "powered"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Domestic Life - Eating and Drinking (ISO 15 09)
+    {
+        name: "Feeding systems for enteral feeding",
+        category: "Domestic Life",
+        description: "Systems for enteral feeding including enteral feeding pumps, tubes, and accessories.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "15 09",
+        keywords: ["enteral", "feeding", "pump", "tube", "nutrition"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Communication and Information Management - Seeing (ISO 22 03)
+    {
+        name: "Spectacles and contact lenses",
+        category: "Communication and Information",
+        description: "Corrective eyewear including spectacles and contact lenses.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 03 03",
+        keywords: ["spectacles", "glasses", "contact lenses", "vision", "eyewear"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Binoculars and monoculars",
+        category: "Communication and Information",
+        description: "Optical magnification devices for distance viewing.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 03 06",
+        keywords: ["binoculars", "monoculars", "magnification", "vision"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
+    // Communication and Information Management - Hearing (ISO 22 06)
+    {
+        name: "Ear-trumpets",
+        category: "Communication and Information",
+        description: "Non-electronic hearing amplification devices.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 06 03",
+        keywords: ["ear trumpet", "hearing", "amplification"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Hearing amplifiers",
+        category: "Communication and Information",
+        description: "Electronic hearing amplification devices.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 06 06",
+        keywords: ["hearing", "amplifier", "audio"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Spectacle hearing aids",
+        category: "Communication and Information",
+        description: "Hearing aids integrated into spectacles.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 06 09",
+        keywords: ["hearing aid", "spectacle", "glasses"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "In-the-ear hearing aids",
+        category: "Communication and Information",
+        description: "Hearing aids worn inside the ear canal.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 06 12",
+        keywords: ["hearing aid", "in-the-ear", "ITE"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Behind-the-ear hearing aids",
+        category: "Communication and Information",
+        description: "Hearing aids worn behind the ear.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 06 15",
+        keywords: ["hearing aid", "behind-the-ear", "BTE"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+    {
+        name: "Tactile hearing aids",
+        category: "Communication and Information",
+        description: "Hearing aids that provide tactile feedback.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "22 06 18",
+        keywords: ["hearing aid", "tactile", "vibration"],
+        conditions: "Excluded - currently funded by other programs"
+    },
+
     // OUT OF SCOPE ITEMS - Excluded from AT-HM program
 
     // Washing, Bathing and Showering - Excluded (ISO 09 33)
