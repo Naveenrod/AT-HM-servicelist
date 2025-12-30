@@ -4429,6 +4429,1166 @@ const athmData = [
         status: "included",
         isoCode: "09 30 24",
         keywords: ["reusable", "children", "washable", "cloth", "continence"]
+    },
+
+    // Hearing Aids with Implants
+    {
+        name: "Hearing aids used in connection with implants",
+        category: "Communication and Information",
+        description: "Hearing aids designed for use with cochlear implants or other hearing implants.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 06 27",
+        keywords: ["hearing", "aid", "implant", "cochlear"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Voice and Speech Functions (ISO 22 09) - Included
+    {
+        name: "Voice generators",
+        category: "Communication and Information",
+        description: "Devices that generate voice output for communication.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 09 03",
+        keywords: ["voice", "generator", "speech", "communication", "AAC"]
+    },
+    {
+        name: "Speech flow devices",
+        category: "Communication and Information",
+        description: "Devices to assist with speech flow and fluency.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 09 06",
+        keywords: ["speech", "flow", "fluency", "stutter", "communication"]
+    },
+
+    // Record, Play and Display Audio and Visual Information (ISO 22 18) - Included
+    {
+        name: "Decoders for videotext and text television",
+        category: "Communication and Information",
+        description: "Decoders for accessing videotext and teletext services.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 18 03",
+        keywords: ["decoder", "videotext", "teletext", "television", "caption"]
+    },
+    {
+        name: "Microphones",
+        category: "Communication and Information",
+        description: "Microphones for audio input and communication.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 18 06",
+        keywords: ["microphone", "audio", "input", "communication"]
+    },
+    {
+        name: "Loudspeakers",
+        category: "Communication and Information",
+        description: "Loudspeakers for audio output and amplification.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 18 09",
+        keywords: ["loudspeaker", "speaker", "audio", "amplification"]
+    },
+    {
+        name: "Headphones, earphones and headsets",
+        category: "Communication and Information",
+        description: "Personal audio devices for listening.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 18 12",
+        keywords: ["headphones", "earphones", "headset", "audio", "listening"]
+    },
+
+    // OUT OF SCOPE ITEMS - Excluded from AT-HM program
+
+    // Washing, Bathing and Showering - Excluded (ISO 09 33)
+    {
+        name: "Assistive products for floating",
+        category: "Personal Care and Protection",
+        description: "Floating aids for bathing - considered usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 33 42",
+        keywords: ["floating", "bath", "swimming", "buoyancy"],
+        conditions: "Out of scope - considered usual household expense or discretionary expense"
+    },
+
+    // Sexual Activity - Excluded (ISO 09 54)
+    {
+        name: "Dummies for sexual activity",
+        category: "Personal Care and Protection",
+        description: "Assistive products for sexual activity - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 54 03",
+        keywords: ["sexual", "activity", "dummy"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for erection",
+        category: "Personal Care and Protection",
+        description: "Products to assist with erection - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "09 54 06",
+        keywords: ["erection", "sexual", "activity"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Vibrators for sexual activity",
+        category: "Personal Care and Protection",
+        description: "Vibrators for sexual activity - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "09 54 09",
+        keywords: ["vibrator", "sexual", "activity"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Mopeds and Motorcycles - Excluded (ISO 12 16)
+    {
+        name: "Two-wheeled mopeds and motorcycles",
+        category: "Mobility",
+        description: "Two-wheeled motorised vehicles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 16 03",
+        keywords: ["moped", "motorcycle", "two-wheeled", "motorised"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Three-wheeled mopeds and motorcycles",
+        category: "Mobility",
+        description: "Three-wheeled motorised vehicles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 16 06",
+        keywords: ["moped", "motorcycle", "three-wheeled", "motorised"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Diverse Motorised Vehicles - Excluded (ISO 12 17)
+    {
+        name: "Stand-on motorised vehicles",
+        category: "Mobility",
+        description: "Stand-on motorised vehicles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 17 03",
+        keywords: ["stand-on", "motorised", "vehicle", "scooter"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Cycles - Excluded (ISO 12 18)
+    {
+        name: "Foot-propelled bicycles",
+        category: "Mobility",
+        description: "Standard bicycles - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 18 03",
+        keywords: ["bicycle", "bike", "foot-propelled", "cycling"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Hand-propelled bicycles",
+        category: "Mobility",
+        description: "Hand-propelled bicycles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 18 06",
+        keywords: ["bicycle", "hand-propelled", "handcycle"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Foot-propelled tricycles and quadricycles",
+        category: "Mobility",
+        description: "Foot-propelled tricycles and quadricycles - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 18 09",
+        keywords: ["tricycle", "quadricycle", "foot-propelled"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Hand-propelled tricycles and quadricycles",
+        category: "Mobility",
+        description: "Hand-propelled tricycles and quadricycles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 18 12",
+        keywords: ["tricycle", "quadricycle", "hand-propelled"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Tandems, tricycles and four-wheeled cycles for two or more persons",
+        category: "Mobility",
+        description: "Multi-person cycles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 18 15",
+        keywords: ["tandem", "multi-person", "cycle"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Cycle adaptations",
+        category: "Mobility",
+        description: "Adaptations for cycles - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 18 18",
+        keywords: ["cycle", "adaptation", "modification"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Trailers for cycles",
+        category: "Mobility",
+        description: "Trailers for cycles - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 18 21",
+        keywords: ["trailer", "cycle", "bicycle"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Manual Wheelchairs - Excluded (ISO 12 22)
+    {
+        name: "Stair-climbing manual wheelchairs",
+        category: "Mobility",
+        description: "Manual wheelchairs with stair-climbing capability - out of scope.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 22 18",
+        keywords: ["wheelchair", "manual", "stair-climbing"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Powered Wheelchairs - Excluded (ISO 12 23)
+    {
+        name: "Combustion powered wheelchairs",
+        category: "Mobility",
+        description: "Wheelchairs powered by combustion engines - out of scope.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "12 23 15",
+        keywords: ["wheelchair", "powered", "combustion", "engine"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Diverse Human Powered Vehicles - Excluded (ISO 12 27)
+    {
+        name: "Transportation chairs",
+        category: "Mobility",
+        description: "Chairs designed for transport by another person - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 27 06",
+        keywords: ["transport", "chair", "attendant-propelled"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Sledges",
+        category: "Mobility",
+        description: "Sledges for mobility on snow - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 27 09",
+        keywords: ["sledge", "sled", "snow"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Pedal cars and playing carts",
+        category: "Mobility",
+        description: "Pedal cars and play carts - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 27 12",
+        keywords: ["pedal", "car", "cart", "play"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Wheeled stretchers",
+        category: "Mobility",
+        description: "Wheeled stretchers for transport - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 27 15",
+        keywords: ["stretcher", "wheeled", "transport"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Running bikes",
+        category: "Mobility",
+        description: "Running bikes (balance bikes) - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 27 18",
+        keywords: ["running", "bike", "balance"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+    {
+        name: "Unpowered scooters",
+        category: "Mobility",
+        description: "Unpowered kick scooters - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "12 27 21",
+        keywords: ["scooter", "unpowered", "kick"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Changing Body Position - Excluded (ISO 12 31)
+    {
+        name: "Carrying chairs, carrying harnesses and carrying baskets",
+        category: "Mobility",
+        description: "Devices for carrying a person - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "12 31 15",
+        keywords: ["carrying", "chair", "harness", "basket"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Preparing Food and Drink - Excluded (ISO 15 03)
+    {
+        name: "Assistive products for cooking and frying",
+        category: "Household and Domestic",
+        description: "Cooking and frying equipment - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 03 21",
+        keywords: ["cooking", "frying", "kitchen"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Cooking units",
+        category: "Household and Domestic",
+        description: "Cooking units and stoves - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 03 24",
+        keywords: ["cooking", "stove", "unit", "oven"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Refrigerators and freezers",
+        category: "Household and Domestic",
+        description: "Refrigerators and freezers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 03 27",
+        keywords: ["refrigerator", "freezer", "fridge"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Dishwashing - Excluded (ISO 15 06)
+    {
+        name: "Dishwashers",
+        category: "Household and Domestic",
+        description: "Dishwashing machines - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 06 06",
+        keywords: ["dishwasher", "washing", "kitchen"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Housecleaning - Excluded (ISO 15 12)
+    {
+        name: "Dispensers for kitchen roll",
+        category: "Household and Domestic",
+        description: "Kitchen roll dispensers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 12 06",
+        keywords: ["dispenser", "kitchen", "roll", "paper"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Floor polishers",
+        category: "Household and Domestic",
+        description: "Floor polishing machines - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 12 09",
+        keywords: ["floor", "polisher", "cleaning"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Window cleaning equipment",
+        category: "Household and Domestic",
+        description: "Window cleaning equipment - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 12 12",
+        keywords: ["window", "cleaning", "equipment"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for storage of waste or disposal of waste",
+        category: "Household and Domestic",
+        description: "Waste storage and disposal - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 12 15",
+        keywords: ["waste", "disposal", "storage", "bin"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Making and Maintain Textiles - Excluded (ISO 15 15)
+    {
+        name: "Sewing machines",
+        category: "Household and Domestic",
+        description: "Sewing machines - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 03",
+        keywords: ["sewing", "machine", "textile"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Sewing hoops, pincushions and darning devices",
+        category: "Household and Domestic",
+        description: "Sewing accessories - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 06",
+        keywords: ["sewing", "hoop", "pincushion", "darning"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Knitting machines",
+        category: "Household and Domestic",
+        description: "Knitting machines - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 09",
+        keywords: ["knitting", "machine", "textile"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Knitting, crocheting, sewing and darning needles",
+        category: "Household and Domestic",
+        description: "Needles for textile work - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 12",
+        keywords: ["needle", "knitting", "crocheting", "sewing", "darning"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Patterns for sewing and knitting",
+        category: "Household and Domestic",
+        description: "Patterns for textile work - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 15",
+        keywords: ["pattern", "sewing", "knitting"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for hand sewing",
+        category: "Household and Domestic",
+        description: "Hand sewing aids - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 15 18",
+        keywords: ["hand", "sewing", "aid"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Gardening - Excluded (ISO 15 18)
+    {
+        name: "Adapted gardening beds",
+        category: "Household and Domestic",
+        description: "Raised or adapted gardening beds - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "15 18 03",
+        keywords: ["gardening", "bed", "raised", "adapted"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Tables - Excluded (ISO 18 03)
+    {
+        name: "Drafting tables and drawing tables",
+        category: "Furniture and Seating",
+        description: "Drafting and drawing tables - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "18 03 12",
+        keywords: ["drafting", "drawing", "table"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Light Fixtures - Excluded (ISO 18 06)
+    {
+        name: "Podium lights and blackboard lights",
+        category: "Furniture and Seating",
+        description: "Specialised lighting - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "18 06 09",
+        keywords: ["podium", "blackboard", "light"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Vertical Accessibility - Excluded (ISO 18 30)
+    {
+        name: "Stair-climbing supports without seat or platform",
+        category: "Home Modifications",
+        description: "Stair-climbing aids without seat - out of scope.",
+        riskLevel: "prescribed",
+        status: "excluded",
+        isoCode: "18 30 15",
+        keywords: ["stair", "climbing", "support"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Safety Equipment - Excluded (ISO 18 33)
+    {
+        name: "Tactile materials for floors and stairs",
+        category: "Home Modifications",
+        description: "Tactile indicators for floors and stairs - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "18 33 03",
+        keywords: ["tactile", "floor", "stairs", "indicator"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Furniture for Storage - Excluded (ISO 18 36)
+    {
+        name: "Bedside cabinets",
+        category: "Furniture and Seating",
+        description: "Bedside cabinets - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "18 36 03",
+        keywords: ["bedside", "cabinet", "furniture"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Voice and Speech Functions - Excluded (ISO 22 09)
+    {
+        name: "Assistive products for voice training and speech training",
+        category: "Communication and Information",
+        description: "Voice and speech training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 09 09",
+        keywords: ["voice", "speech", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Reading, Writing and Drawing - Excluded (ISO 22 13)
+    {
+        name: "Typewriters",
+        category: "Communication and Information",
+        description: "Typewriters - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 13 03",
+        keywords: ["typewriter", "writing"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Special writing paper/plastic",
+        category: "Communication and Information",
+        description: "Special writing materials - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 13 06",
+        keywords: ["writing", "paper", "plastic", "special"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Text and multimedia processing software",
+        category: "Communication and Information",
+        description: "Text processing software - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 13 09",
+        keywords: ["text", "multimedia", "software", "processing"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Drawing and painting software",
+        category: "Communication and Information",
+        description: "Drawing and painting software - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 13 12",
+        keywords: ["drawing", "painting", "software", "art"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for training in reading",
+        category: "Communication and Information",
+        description: "Reading training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 13 15",
+        keywords: ["reading", "training", "literacy"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in writing",
+        category: "Communication and Information",
+        description: "Writing training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 13 18",
+        keywords: ["writing", "training", "literacy"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Calculation and Training Basic Arithmetic - Excluded (ISO 22 15)
+    {
+        name: "Manual devices for calculation",
+        category: "Communication and Information",
+        description: "Manual calculation devices - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 15 03",
+        keywords: ["calculation", "manual", "abacus"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Calculators",
+        category: "Communication and Information",
+        description: "Electronic calculators - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 15 06",
+        keywords: ["calculator", "electronic"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Calculation software",
+        category: "Communication and Information",
+        description: "Calculation software - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 15 09",
+        keywords: ["calculation", "software", "math"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for training and supporting the basics of arithmetic",
+        category: "Communication and Information",
+        description: "Arithmetic training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 15 12",
+        keywords: ["arithmetic", "training", "math", "basics"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in basic geometric skills",
+        category: "Communication and Information",
+        description: "Geometry training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 15 15",
+        keywords: ["geometry", "training", "skills"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products in understanding of money",
+        category: "Communication and Information",
+        description: "Money understanding training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 15 18",
+        keywords: ["money", "understanding", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in mathematics and physical sciences",
+        category: "Communication and Information",
+        description: "Math and science training products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 15 21",
+        keywords: ["mathematics", "science", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Record, Play and Display Audio and Visual Information - Excluded (ISO 22 18)
+    {
+        name: "Sound recording and playing devices",
+        category: "Communication and Information",
+        description: "Sound recording devices - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 15",
+        keywords: ["sound", "recording", "playing", "audio"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Video recording and playing devices",
+        category: "Communication and Information",
+        description: "Video recording devices - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 18",
+        keywords: ["video", "recording", "playing"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Radio receivers",
+        category: "Communication and Information",
+        description: "Radio receivers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 21",
+        keywords: ["radio", "receiver", "audio"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Two-way radios",
+        category: "Communication and Information",
+        description: "Two-way radios - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 24",
+        keywords: ["two-way", "radio", "communication"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Televisions",
+        category: "Communication and Information",
+        description: "Televisions - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 27",
+        keywords: ["television", "TV"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Closed-circuit television systems",
+        category: "Communication and Information",
+        description: "CCTV systems - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 30",
+        keywords: ["CCTV", "closed-circuit", "television"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Accessories for audio, video and visual systems",
+        category: "Communication and Information",
+        description: "AV accessories - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 18 33",
+        keywords: ["accessories", "audio", "video", "visual"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Face-to-Face Communication - Excluded (ISO 22 21)
+    {
+        name: "Assistive products for training in finger spelling",
+        category: "Communication and Information",
+        description: "Finger spelling training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 03",
+        keywords: ["finger", "spelling", "training", "deaf"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in sign language",
+        category: "Communication and Information",
+        description: "Sign language training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 06",
+        keywords: ["sign", "language", "training", "deaf"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in lip-reading",
+        category: "Communication and Information",
+        description: "Lip-reading training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 09",
+        keywords: ["lip-reading", "training", "deaf"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in cued speech",
+        category: "Communication and Information",
+        description: "Cued speech training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 12",
+        keywords: ["cued", "speech", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training the use of visual symbols for communication",
+        category: "Communication and Information",
+        description: "Visual symbol communication training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 15",
+        keywords: ["visual", "symbols", "communication", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+    {
+        name: "Assistive products for training in Morse communication",
+        category: "Communication and Information",
+        description: "Morse code training - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 21 18",
+        keywords: ["Morse", "code", "communication", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Distant Communication - Excluded (ISO 22 24)
+    {
+        name: "Devices mainly for speech communication",
+        category: "Communication and Information",
+        description: "Speech communication devices - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 24 03",
+        keywords: ["speech", "communication", "device", "phone"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Telex and telefax machines",
+        category: "Communication and Information",
+        description: "Telex and fax machines - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 24 06",
+        keywords: ["telex", "telefax", "fax", "machine"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Telephone booths",
+        category: "Communication and Information",
+        description: "Telephone booths - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 24 09",
+        keywords: ["telephone", "booth"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Telephone switchboards",
+        category: "Communication and Information",
+        description: "Telephone switchboards - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 24 12",
+        keywords: ["telephone", "switchboard"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Intercoms and entry phones",
+        category: "Communication and Information",
+        description: "Intercoms and entry phones - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 24 15",
+        keywords: ["intercom", "entry", "phone", "doorbell"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Learning Languages - Excluded (ISO 22 31)
+    {
+        name: "Assistive products for learning languages",
+        category: "Communication and Information",
+        description: "Language learning products - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 31 03",
+        keywords: ["language", "learning", "training"],
+        conditions: "Out of scope - considered discretionary expense"
+    },
+
+    // Computers and Terminals - Excluded (ISO 22 33)
+    {
+        name: "Desktop (non-portable) computers",
+        category: "Communication and Information",
+        description: "Desktop computers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 33 03",
+        keywords: ["desktop", "computer", "PC"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Public information/transaction terminals",
+        category: "Communication and Information",
+        description: "Public terminals - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 33 06",
+        keywords: ["public", "terminal", "kiosk"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Operating software",
+        category: "Communication and Information",
+        description: "Operating systems - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 33 09",
+        keywords: ["operating", "software", "system"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Browser software",
+        category: "Communication and Information",
+        description: "Web browsers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 33 12",
+        keywords: ["browser", "software", "web"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Accessories for computers and networks",
+        category: "Communication and Information",
+        description: "Computer accessories - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 33 15",
+        keywords: ["accessories", "computer", "network"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Output Devices - Excluded (ISO 22 39)
+    {
+        name: "Printers",
+        category: "Communication and Information",
+        description: "Printers - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 39 03",
+        keywords: ["printer", "output"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Audible displays",
+        category: "Communication and Information",
+        description: "Audible output displays - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 39 06",
+        keywords: ["audible", "display", "output"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Orientation - Excluded (ISO 22 45)
+    {
+        name: "Assistive products for electronic orientation",
+        category: "Communication and Information",
+        description: "Electronic orientation devices - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 45 03",
+        keywords: ["electronic", "orientation", "GPS", "navigation"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for acoustic navigation",
+        category: "Communication and Information",
+        description: "Acoustic navigation aids - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "22 45 06",
+        keywords: ["acoustic", "navigation", "sound"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Compasses",
+        category: "Communication and Information",
+        description: "Compasses for orientation - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "22 45 09",
+        keywords: ["compass", "orientation", "direction"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Electronic Products for Operation and Controlling - Excluded (ISO 24 13)
+    {
+        name: "Timer switches",
+        category: "Home Modifications",
+        description: "Timer switches - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "24 13 03",
+        keywords: ["timer", "switch", "control"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Switchboards",
+        category: "Home Modifications",
+        description: "Switchboards - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "24 13 06",
+        keywords: ["switchboard", "electrical", "control"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Positioning - Excluded (ISO 24 24)
+    {
+        name: "Lifting and tilting systems",
+        category: "Home Modifications",
+        description: "Lifting and tilting systems - out of scope.",
+        riskLevel: "under-advice",
+        status: "excluded",
+        isoCode: "24 24 03",
+        keywords: ["lifting", "tilting", "system"],
+        conditions: "Out of scope - secondary mobility product"
+    },
+
+    // Carrying and Transporting - Excluded (ISO 24 27)
+    {
+        name: "Sets of castors",
+        category: "Home Modifications",
+        description: "Sets of castors - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "24 27 03",
+        keywords: ["castors", "wheels", "furniture"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Environmental Improvement - Excluded (ISO 27 03)
+    {
+        name: "Assistive products for reducing vibrations",
+        category: "Home Modifications",
+        description: "Vibration reduction products - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 03 03",
+        keywords: ["vibration", "reduction", "damping"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Water purifiers and water softeners",
+        category: "Home Modifications",
+        description: "Water treatment equipment - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 03 06",
+        keywords: ["water", "purifier", "softener", "filter"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+
+    // Measuring Instruments - Excluded (ISO 27 06)
+    {
+        name: "Assistive products for measuring length",
+        category: "Household and Domestic",
+        description: "Length measuring tools - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 03",
+        keywords: ["measuring", "length", "ruler", "tape"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring angles and alignment",
+        category: "Household and Domestic",
+        description: "Angle and alignment measuring tools - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 06",
+        keywords: ["measuring", "angle", "alignment", "level"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring volume",
+        category: "Household and Domestic",
+        description: "Volume measuring tools - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 09",
+        keywords: ["measuring", "volume", "cup", "jug"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring mass (not of person)",
+        category: "Household and Domestic",
+        description: "Scales and weighing devices - out of scope as usual household expense.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 12",
+        keywords: ["measuring", "mass", "weight", "scale"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring electrical properties",
+        category: "Household and Domestic",
+        description: "Electrical measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 15",
+        keywords: ["measuring", "electrical", "multimeter"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring pressure",
+        category: "Household and Domestic",
+        description: "Pressure measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 18",
+        keywords: ["measuring", "pressure", "gauge"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring climatic conditions",
+        category: "Household and Domestic",
+        description: "Weather and climate measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 21",
+        keywords: ["measuring", "climate", "weather", "thermometer"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring colours",
+        category: "Household and Domestic",
+        description: "Colour measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 24",
+        keywords: ["measuring", "colour", "color"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring sound levels",
+        category: "Household and Domestic",
+        description: "Sound level measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 27",
+        keywords: ["measuring", "sound", "level", "decibel"],
+        conditions: "Out of scope - considered usual household expense"
+    },
+    {
+        name: "Assistive products for measuring density of fluids",
+        category: "Household and Domestic",
+        description: "Fluid density measuring devices - out of scope.",
+        riskLevel: "low-risk",
+        status: "excluded",
+        isoCode: "27 06 30",
+        keywords: ["measuring", "density", "fluid"],
+        conditions: "Out of scope - considered usual household expense"
     }
 ];
 
