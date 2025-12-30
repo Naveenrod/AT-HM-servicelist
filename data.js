@@ -2911,6 +2911,688 @@ const athmData = [
         isoCode: "18 12 24",
         keywords: ["back support", "leg support", "bed", "adjustable"],
         conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Time, Memory and Planning (ISO 22 28)
+    {
+        name: "Calendars",
+        category: "Communication and Information",
+        description: "Calendars designed to assist with time management and planning.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 03",
+        keywords: ["calendar", "date", "planning", "schedule", "time"]
+    },
+    {
+        name: "Diaries and organisers",
+        category: "Communication and Information",
+        description: "Diaries and organisers to assist with planning and memory.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 06",
+        keywords: ["diary", "organiser", "planner", "schedule", "memory"]
+    },
+    {
+        name: "Time management products",
+        category: "Communication and Information",
+        description: "Products to assist with managing and tracking time.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 09",
+        keywords: ["time", "management", "timer", "clock", "schedule"]
+    },
+    {
+        name: "Manually operated timers",
+        category: "Communication and Information",
+        description: "Manual timers to assist with time management and task scheduling.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 12",
+        keywords: ["timer", "manual", "countdown", "time", "alarm"]
+    },
+    {
+        name: "Electronic timers and organisers",
+        category: "Communication and Information",
+        description: "Electronic devices for timing and organisation assistance.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "22 28 15",
+        keywords: ["timer", "electronic", "organiser", "digital", "alarm"]
+    },
+
+    // Arm and Hand Function (ISO 24 18)
+    {
+        name: "Arm supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with arm function and positioning.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 03",
+        keywords: ["arm", "support", "positioning", "function"]
+    },
+    {
+        name: "Hand and finger supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with hand and finger function.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 06",
+        keywords: ["hand", "finger", "support", "grip", "function"]
+    },
+    {
+        name: "Wrist supports",
+        category: "Personal Care and Protection",
+        description: "Supports to assist with wrist function and stability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 18 09",
+        keywords: ["wrist", "support", "stability", "function"]
+    },
+    {
+        name: "Assistive products for grasping",
+        category: "Personal Care and Protection",
+        description: "Products to assist with gripping and grasping objects.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 18 12",
+        keywords: ["grasp", "grip", "hold", "reach", "picker"]
+    },
+    {
+        name: "Reachers and reaching aids",
+        category: "Personal Care and Protection",
+        description: "Long-handled reaching devices to assist with picking up objects.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 18 15",
+        keywords: ["reacher", "reaching", "grabber", "picker", "extend"]
+    },
+
+    // Clothes and Shoes (ISO 09 03)
+    {
+        name: "Coats, capes, cloaks",
+        category: "Personal Care and Protection",
+        description: "Adapted outerwear including coats, capes, and cloaks.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 03",
+        keywords: ["coat", "cape", "cloak", "outerwear", "clothing"]
+    },
+    {
+        name: "Trousers and shorts",
+        category: "Personal Care and Protection",
+        description: "Adapted trousers and shorts for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 04",
+        keywords: ["trousers", "shorts", "pants", "clothing", "adapted"]
+    },
+    {
+        name: "Shirts and blouses",
+        category: "Personal Care and Protection",
+        description: "Adapted shirts and blouses for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 06",
+        keywords: ["shirt", "blouse", "top", "clothing", "adapted"]
+    },
+    {
+        name: "Skirts",
+        category: "Personal Care and Protection",
+        description: "Adapted skirts for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 07",
+        keywords: ["skirt", "clothing", "adapted", "dress"]
+    },
+    {
+        name: "Dresses",
+        category: "Personal Care and Protection",
+        description: "Adapted dresses for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 09",
+        keywords: ["dress", "clothing", "adapted", "garment"]
+    },
+    {
+        name: "Underwear",
+        category: "Personal Care and Protection",
+        description: "Adapted underwear for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 12",
+        keywords: ["underwear", "undergarment", "clothing", "adapted"]
+    },
+    {
+        name: "Socks and stockings",
+        category: "Personal Care and Protection",
+        description: "Adapted socks and stockings for people with disability.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 03 15",
+        keywords: ["socks", "stockings", "hosiery", "clothing", "adapted"]
+    },
+    {
+        name: "Shoes and boots",
+        category: "Personal Care and Protection",
+        description: "Adapted shoes and boots for people with disability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 03 18",
+        keywords: ["shoes", "boots", "footwear", "adapted"]
+    },
+    {
+        name: "Shoe adaptations",
+        category: "Personal Care and Protection",
+        description: "Adaptations and modifications for shoes.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 03 21",
+        keywords: ["shoe", "adaptation", "modification", "footwear"]
+    },
+
+    // Body Protection (ISO 09 06-07)
+    {
+        name: "Protective clothing worn on the upper part of the body",
+        category: "Personal Care and Protection",
+        description: "Protective garments worn on the upper body.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 03",
+        keywords: ["protective", "clothing", "upper body", "garment"]
+    },
+    {
+        name: "Protective clothing worn on the lower part of the body",
+        category: "Personal Care and Protection",
+        description: "Protective garments worn on the lower body.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 06",
+        keywords: ["protective", "clothing", "lower body", "garment"]
+    },
+    {
+        name: "Protective clothing worn on the whole body",
+        category: "Personal Care and Protection",
+        description: "Full body protective garments.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 09",
+        keywords: ["protective", "clothing", "full body", "garment", "suit"]
+    },
+    {
+        name: "Safety helmets",
+        category: "Personal Care and Protection",
+        description: "Helmets for head protection.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 06 12",
+        keywords: ["helmet", "safety", "head", "protection"]
+    },
+    {
+        name: "Protective eyewear",
+        category: "Personal Care and Protection",
+        description: "Protective glasses and goggles.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 06 15",
+        keywords: ["eyewear", "glasses", "goggles", "protection", "eyes"]
+    },
+    {
+        name: "Gloves and mittens",
+        category: "Personal Care and Protection",
+        description: "Protective gloves and mittens.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 06 18",
+        keywords: ["gloves", "mittens", "hand", "protection"]
+    },
+    {
+        name: "Elbow and forearm protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for elbows and forearms.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 03",
+        keywords: ["elbow", "forearm", "protection", "pad"]
+    },
+    {
+        name: "Knee protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for knees.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 06",
+        keywords: ["knee", "protection", "pad", "guard"]
+    },
+    {
+        name: "Hip protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads for hips to prevent injury from falls.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 07 09",
+        keywords: ["hip", "protection", "pad", "fall", "injury"]
+    },
+
+    // Dressing and Undressing (ISO 09 09)
+    {
+        name: "Button and zipper hooks",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with fastening buttons and zippers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 03",
+        keywords: ["button", "zipper", "hook", "fastener", "dressing"]
+    },
+    {
+        name: "Shoelace fasteners",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with tying or replacing shoelaces.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 06",
+        keywords: ["shoelace", "fastener", "elastic", "lace", "shoe"]
+    },
+    {
+        name: "Shoehorns",
+        category: "Personal Care and Protection",
+        description: "Long-handled or adapted shoehorns to assist with putting on shoes.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 09",
+        keywords: ["shoehorn", "shoe", "dressing", "aid"]
+    },
+    {
+        name: "Dressing sticks",
+        category: "Personal Care and Protection",
+        description: "Sticks to assist with pulling on and pushing off clothing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 12",
+        keywords: ["dressing", "stick", "clothing", "aid", "reach"]
+    },
+    {
+        name: "Sock and stocking aids",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with putting on socks and stockings.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 15",
+        keywords: ["sock", "stocking", "aid", "dressing", "donner"]
+    },
+    {
+        name: "Tights and pantyhose aids",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with putting on tights and pantyhose.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 09 18",
+        keywords: ["tights", "pantyhose", "aid", "dressing", "hosiery"]
+    },
+
+    // Toileting (ISO 09 12)
+    {
+        name: "Raised toilet seats",
+        category: "Personal Care and Protection",
+        description: "Seats that raise the height of the toilet for easier transfers.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 03",
+        keywords: ["toilet", "seat", "raised", "height", "transfer"]
+    },
+    {
+        name: "Toilet seats with built-in raising mechanism",
+        category: "Personal Care and Protection",
+        description: "Toilet seats with powered or mechanical raising mechanisms.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 12 06",
+        keywords: ["toilet", "seat", "raising", "mechanism", "lift"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Toilet seat inserts and reducers",
+        category: "Personal Care and Protection",
+        description: "Inserts and reducers to modify toilet seat size.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 09",
+        keywords: ["toilet", "seat", "insert", "reducer", "child"]
+    },
+    {
+        name: "Toilet armrests and backrests mounted on the toilet",
+        category: "Personal Care and Protection",
+        description: "Armrests and backrests that attach to the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 12",
+        keywords: ["toilet", "armrest", "backrest", "support", "mounted"]
+    },
+    {
+        name: "Free-standing toilet armrests and supports",
+        category: "Personal Care and Protection",
+        description: "Free-standing frames providing armrests and support around the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 15",
+        keywords: ["toilet", "frame", "armrest", "support", "freestanding"]
+    },
+    {
+        name: "Wall-mounted toilet armrests and supports",
+        category: "Personal Care and Protection",
+        description: "Armrests and supports mounted to the wall beside the toilet.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 18",
+        keywords: ["toilet", "armrest", "support", "wall", "mounted"]
+    },
+    {
+        name: "Commode chairs without wheels",
+        category: "Personal Care and Protection",
+        description: "Portable toileting chairs without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 21",
+        keywords: ["commode", "chair", "toilet", "portable"]
+    },
+    {
+        name: "Commode chairs with wheels",
+        category: "Personal Care and Protection",
+        description: "Mobile toileting chairs with wheels for transport.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 24",
+        keywords: ["commode", "chair", "wheels", "mobile", "toilet"]
+    },
+    {
+        name: "Bedpans and urinals",
+        category: "Personal Care and Protection",
+        description: "Containers for toileting while in bed.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 27",
+        keywords: ["bedpan", "urinal", "bed", "toilet", "container"]
+    },
+    {
+        name: "Assistive products for holding toilet paper",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with holding and using toilet paper.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 12 33",
+        keywords: ["toilet paper", "holder", "wiper", "hygiene"]
+    },
+    {
+        name: "Bidets",
+        category: "Personal Care and Protection",
+        description: "Bidets for personal hygiene after toileting.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 12 36",
+        keywords: ["bidet", "wash", "hygiene", "toilet"]
+    },
+
+    // Collecting Urine (ISO 09 27)
+    {
+        name: "Male body-worn urine collection devices",
+        category: "Personal Care and Protection",
+        description: "Urine collection devices designed to be worn by males.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 03",
+        keywords: ["urine", "collection", "male", "body-worn", "continence"]
+    },
+    {
+        name: "Female body-worn urine collection devices",
+        category: "Personal Care and Protection",
+        description: "Urine collection devices designed to be worn by females.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 06",
+        keywords: ["urine", "collection", "female", "body-worn", "continence"]
+    },
+    {
+        name: "Urine drainage bags",
+        category: "Personal Care and Protection",
+        description: "Bags for collecting and draining urine.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 27 09",
+        keywords: ["urine", "drainage", "bag", "collection", "catheter"]
+    },
+    {
+        name: "Catheters",
+        category: "Personal Care and Protection",
+        description: "Tubes for draining urine from the bladder.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 27 12",
+        keywords: ["catheter", "urine", "bladder", "drainage"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Urine collection bottles and containers",
+        category: "Personal Care and Protection",
+        description: "Bottles and containers for collecting urine.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 27 15",
+        keywords: ["urine", "bottle", "container", "collection"]
+    },
+
+    // Collecting Faeces (ISO 09 30)
+    {
+        name: "Ostomy bags for faeces",
+        category: "Personal Care and Protection",
+        description: "Bags for collecting faeces from an ostomy.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 30 04",
+        keywords: ["ostomy", "bag", "faeces", "stoma", "colostomy"]
+    },
+    {
+        name: "Ostomy baseplates and seals",
+        category: "Personal Care and Protection",
+        description: "Baseplates and seals for ostomy appliances.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 30 08",
+        keywords: ["ostomy", "baseplate", "seal", "stoma", "appliance"]
+    },
+    {
+        name: "Ostomy plugs and irrigation systems",
+        category: "Personal Care and Protection",
+        description: "Plugs and irrigation systems for ostomy management.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 30 12",
+        keywords: ["ostomy", "plug", "irrigation", "stoma", "management"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Absorbing Urine and Faeces (ISO 09 31)
+    {
+        name: "Disposable incontinence pads",
+        category: "Personal Care and Protection",
+        description: "Single-use absorbent pads for incontinence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 03",
+        keywords: ["incontinence", "pad", "disposable", "absorbent", "continence"]
+    },
+    {
+        name: "Reusable incontinence pads",
+        category: "Personal Care and Protection",
+        description: "Washable, reusable absorbent pads for incontinence management.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 06",
+        keywords: ["incontinence", "pad", "reusable", "washable", "continence"]
+    },
+    {
+        name: "Disposable incontinence pants",
+        category: "Personal Care and Protection",
+        description: "Single-use pull-up style incontinence garments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 09",
+        keywords: ["incontinence", "pants", "disposable", "pull-up", "continence"]
+    },
+    {
+        name: "Reusable incontinence pants",
+        category: "Personal Care and Protection",
+        description: "Washable, reusable incontinence garments.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 12",
+        keywords: ["incontinence", "pants", "reusable", "washable", "continence"]
+    },
+    {
+        name: "Incontinence bedding protection",
+        category: "Personal Care and Protection",
+        description: "Protective sheets and pads for bedding.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 15",
+        keywords: ["incontinence", "bedding", "sheet", "protection", "mattress"]
+    },
+    {
+        name: "Incontinence chair protection",
+        category: "Personal Care and Protection",
+        description: "Protective pads and covers for chairs and seating.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 31 18",
+        keywords: ["incontinence", "chair", "protection", "pad", "seating"]
+    },
+
+    // Washing, Bathing, Showering (ISO 09 33)
+    {
+        name: "Bath boards",
+        category: "Personal Care and Protection",
+        description: "Boards that fit across the bath to sit on while bathing.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 03",
+        keywords: ["bath", "board", "seat", "bathing", "transfer"]
+    },
+    {
+        name: "Bath seats without suction cups",
+        category: "Personal Care and Protection",
+        description: "Seats for use in the bath without suction cup attachment.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 04",
+        keywords: ["bath", "seat", "bathing", "chair"]
+    },
+    {
+        name: "Bath seats with suction cups",
+        category: "Personal Care and Protection",
+        description: "Seats for use in the bath with suction cup attachment for stability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 05",
+        keywords: ["bath", "seat", "suction", "bathing", "stable"]
+    },
+    {
+        name: "Free-standing shower chairs without wheels",
+        category: "Personal Care and Protection",
+        description: "Shower chairs that stand freely without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 06",
+        keywords: ["shower", "chair", "freestanding", "bathing"]
+    },
+    {
+        name: "Wall-fixed shower seats",
+        category: "Personal Care and Protection",
+        description: "Shower seats that are fixed to the wall.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 07",
+        keywords: ["shower", "seat", "wall", "fixed", "fold"]
+    },
+    {
+        name: "Free-standing shower stools without wheels",
+        category: "Personal Care and Protection",
+        description: "Shower stools that stand freely without wheels.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 08",
+        keywords: ["shower", "stool", "freestanding", "bathing"]
+    },
+    {
+        name: "Shower chairs with wheels",
+        category: "Personal Care and Protection",
+        description: "Mobile shower chairs with wheels for transport.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 09",
+        keywords: ["shower", "chair", "wheels", "mobile", "commode"]
+    },
+    {
+        name: "Shower stretchers",
+        category: "Personal Care and Protection",
+        description: "Stretchers for showering in a lying position.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33 12",
+        keywords: ["shower", "stretcher", "trolley", "lying", "bathing"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Transfer platforms for bathing",
+        category: "Personal Care and Protection",
+        description: "Platforms to assist with transfers in and out of the bath.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "09 33 15",
+        keywords: ["transfer", "platform", "bath", "bathing", "step"]
+    },
+    {
+        name: "Bath lifts",
+        category: "Personal Care and Protection",
+        description: "Powered lifts to lower and raise a person in the bath.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "09 33 18",
+        keywords: ["bath", "lift", "powered", "lower", "raise"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Non-slip mats and strips for bathrooms",
+        category: "Personal Care and Protection",
+        description: "Non-slip surfaces for use in bathrooms to prevent falls.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 21",
+        keywords: ["non-slip", "mat", "strip", "bathroom", "safety", "fall"]
+    },
+    {
+        name: "Long-handled washing equipment",
+        category: "Personal Care and Protection",
+        description: "Long-handled sponges, brushes, and washing aids.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 24",
+        keywords: ["washing", "long-handled", "sponge", "brush", "bathing"]
+    },
+    {
+        name: "Wash mitts",
+        category: "Personal Care and Protection",
+        description: "Mitts for washing when grip is difficult.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 27",
+        keywords: ["wash", "mitt", "bathing", "grip", "hand"]
+    },
+    {
+        name: "Drying equipment",
+        category: "Personal Care and Protection",
+        description: "Devices to assist with drying after bathing.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "09 33 30",
+        keywords: ["drying", "towel", "bathing", "dry", "equipment"]
     }
 ];
 
