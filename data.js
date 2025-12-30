@@ -5340,6 +5340,378 @@ const athmData = [
     },
 
     // =====================================================
+    // BED ACCESSORIES (ISO 18 12)
+    // =====================================================
+    {
+        name: "Side rails to be fixed to beds",
+        category: "Furniture and Home Accessories",
+        description: "Safety rails that attach to beds to prevent falls.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 26",
+        keywords: ["bed rail", "side rail", "safety", "bed"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Rails for self-lifting to be fixed to beds",
+        category: "Furniture and Home Accessories",
+        description: "Rails attached to beds to assist with self-lifting and repositioning.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 28",
+        keywords: ["bed rail", "self-lifting", "transfer", "bed"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for bed-shortening",
+        category: "Furniture and Home Accessories",
+        description: "Products to shorten the length of beds.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 30",
+        keywords: ["bed", "shortening", "adjustment"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for bed-lengthening",
+        category: "Furniture and Home Accessories",
+        description: "Products to lengthen beds.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 12 33",
+        keywords: ["bed", "lengthening", "adjustment"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // HEIGHT ADJUSTMENT OF FURNITURE (ISO 18 15)
+    // =====================================================
+    {
+        name: "Leg extenders",
+        category: "Furniture and Home Accessories",
+        description: "Devices to extend the height of furniture legs.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 15 03",
+        keywords: ["leg extender", "furniture", "height", "raiser"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Height-adjustable plinths and brackets",
+        category: "Furniture and Home Accessories",
+        description: "Adjustable plinths and brackets for furniture height modification.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 15 06",
+        keywords: ["plinth", "bracket", "height", "adjustable", "furniture"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Pedestals and fixed height plinths and brackets",
+        category: "Furniture and Home Accessories",
+        description: "Fixed-height pedestals and plinths for furniture elevation.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 15 09",
+        keywords: ["pedestal", "plinth", "bracket", "fixed", "furniture"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // VERTICAL ACCESSIBILITY - PORTABLE RAMPS (ISO 18 30)
+    // =====================================================
+    {
+        name: "Portable ramps",
+        category: "Mobility",
+        description: "Portable ramps for temporary accessibility.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 30 15",
+        keywords: ["ramp", "portable", "access", "wheelchair"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // MANIPULATE CONTAINERS (ISO 24 06)
+    // =====================================================
+    {
+        name: "Container openers",
+        category: "Household and Domestic",
+        description: "Devices to assist with opening containers, jars and bottles.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 06 03",
+        keywords: ["container", "opener", "jar", "bottle"]
+    },
+    {
+        name: "Tube-squeezing devices",
+        category: "Household and Domestic",
+        description: "Devices to assist with squeezing tubes.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 06 06",
+        keywords: ["tube", "squeezing", "toothpaste"]
+    },
+
+    // =====================================================
+    // EXTENDED REACH (ISO 24 21)
+    // =====================================================
+    {
+        name: "Manual gripping tongs",
+        category: "Household and Domestic",
+        description: "Manual reaching and gripping aids.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 21 03",
+        keywords: ["reacher", "grabber", "tongs", "gripping"]
+    },
+    {
+        name: "Electric gripping tongs",
+        category: "Household and Domestic",
+        description: "Electric powered reaching and gripping aids.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 21 06",
+        keywords: ["reacher", "grabber", "electric", "gripping"]
+    },
+    {
+        name: "Extenders without gripping function",
+        category: "Household and Domestic",
+        description: "Reaching aids without gripping capability.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 21 09",
+        keywords: ["extender", "reacher", "reaching"]
+    },
+
+    // =====================================================
+    // POSITIONING (ISO 24 24)
+    // =====================================================
+    {
+        name: "Fixed-position systems",
+        category: "Household and Domestic",
+        description: "Systems for holding items in fixed positions.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "24 24 03",
+        keywords: ["positioning", "fixed", "holder"]
+    },
+
+    // =====================================================
+    // FIXATION (ISO 24 27)
+    // =====================================================
+    {
+        name: "Suction cups",
+        category: "Household and Domestic",
+        description: "Suction cups for securing items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 27 03",
+        keywords: ["suction", "cup", "fixation", "secure"]
+    },
+    {
+        name: "Non-slip pads",
+        category: "Household and Domestic",
+        description: "Pads to prevent items from slipping.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 27 06",
+        keywords: ["non-slip", "pad", "grip", "mat"]
+    },
+    {
+        name: "Clips and spring-clips",
+        category: "Household and Domestic",
+        description: "Clips for securing items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 27 12",
+        keywords: ["clip", "spring-clip", "fixation"]
+    },
+    {
+        name: "Magnets, magnetic strips and clamps",
+        category: "Household and Domestic",
+        description: "Magnetic devices for securing items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 27 18",
+        keywords: ["magnet", "magnetic", "clamp", "fixation"]
+    },
+
+    // =====================================================
+    // CARRYING AND TRANSPORTING (ISO 24 36)
+    // =====================================================
+    {
+        name: "Assistive products for carrying",
+        category: "Household and Domestic",
+        description: "Products to assist with carrying items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 36 03",
+        keywords: ["carrying", "transport", "holder"]
+    },
+    {
+        name: "Baggage and shopping trolleys",
+        category: "Household and Domestic",
+        description: "Trolleys for transporting baggage and shopping.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 36 09",
+        keywords: ["trolley", "shopping", "baggage", "transport"]
+    },
+    {
+        name: "Trolleys",
+        category: "Household and Domestic",
+        description: "General purpose trolleys for transporting items.",
+        riskLevel: "low-risk",
+        status: "included",
+        isoCode: "24 36 12",
+        keywords: ["trolley", "transport", "cart"]
+    },
+
+    // =====================================================
+    // CARE OF ANIMALS (ISO 30 34)
+    // =====================================================
+    {
+        name: "Products to enable the feeding, cleaning and other care of pets",
+        category: "Recreation",
+        description: "Assistive products for pet care activities including feeding and cleaning.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "30 34",
+        keywords: ["pet", "animal", "feeding", "care"]
+    },
+
+    // =====================================================
+    // SEEING - VISION AIDS (ISO 22 03)
+    // =====================================================
+    {
+        name: "Light filters (absorption filters)",
+        category: "Communication and Information",
+        description: "Filters to reduce glare and improve visual comfort.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 03 03",
+        keywords: ["filter", "light", "glare", "vision"]
+    },
+    {
+        name: "Magnifier glasses, lenses and lens systems for magnification",
+        category: "Communication and Information",
+        description: "Optical magnification devices for low vision.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 03 09",
+        keywords: ["magnifier", "glasses", "lens", "low vision"]
+    },
+    {
+        name: "Assistive products for extending and adjusting range and angle of the field of vision",
+        category: "Communication and Information",
+        description: "Products to extend or adjust the visual field.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 03 15",
+        keywords: ["vision", "field", "range", "angle"]
+    },
+    {
+        name: "Image-enlarging systems",
+        category: "Communication and Information",
+        description: "Electronic systems for enlarging images.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 03 18",
+        keywords: ["image", "enlarging", "CCTV", "magnification"]
+    },
+    {
+        name: "Screen magnification software",
+        category: "Communication and Information",
+        description: "Software to magnify on-screen content.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 03 21",
+        keywords: ["screen", "magnification", "software", "low vision"]
+    },
+
+    // =====================================================
+    // VOICE AND SPEECH FUNCTIONS (ISO 22 09)
+    // =====================================================
+    {
+        name: "Voice amplifiers for personal use",
+        category: "Communication and Information",
+        description: "Personal voice amplification devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "22 09 06",
+        keywords: ["voice", "amplifier", "speech", "personal"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
+    // READING, WRITING AND DRAWING (ISO 22 13)
+    // =====================================================
+    {
+        name: "Page turners",
+        category: "Communication and Information",
+        description: "Devices to assist with turning pages.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 03",
+        keywords: ["page turner", "reading", "book"]
+    },
+    {
+        name: "Writing boards, reading stands and book support cushions",
+        category: "Communication and Information",
+        description: "Supports for reading and writing materials.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 06",
+        keywords: ["writing board", "reading stand", "book support", "cushion"]
+    },
+    {
+        name: "Reading masks and typoscopes",
+        category: "Communication and Information",
+        description: "Masks and guides to assist with reading.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 12",
+        keywords: ["reading mask", "typoscope", "guide", "reading"]
+    },
+    {
+        name: "Manual devices for drawing and handwriting",
+        category: "Communication and Information",
+        description: "Manual aids for drawing and handwriting.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 24",
+        keywords: ["drawing", "handwriting", "manual", "writing"]
+    },
+    {
+        name: "Manual Braille writing equipment",
+        category: "Communication and Information",
+        description: "Manual equipment for writing in Braille.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 27",
+        keywords: ["braille", "writing", "manual", "slate"]
+    },
+    {
+        name: "Portable note-taking devices for Braille",
+        category: "Communication and Information",
+        description: "Portable devices for taking notes in Braille.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 36",
+        keywords: ["braille", "note-taking", "portable"]
+    },
+    {
+        name: "Assistive products for Braille training",
+        category: "Communication and Information",
+        description: "Products to assist with learning Braille.",
+        riskLevel: "under-advice",
+        status: "included",
+        isoCode: "22 13 51",
+        keywords: ["braille", "training", "learning"]
+    },
+
+    // =====================================================
     // CONDITIONAL INCLUSIONS
     // =====================================================
 
