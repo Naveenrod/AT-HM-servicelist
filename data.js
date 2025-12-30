@@ -3,6 +3,50 @@
 
 const athmData = [
     // =====================================================
+    // TISSUE INTEGRITY MANAGEMENT (ISO 04)
+    // =====================================================
+    {
+        name: "Seat cushions and underlays for tissue integrity",
+        category: "Tissue Integrity Management",
+        description: "Cushions and underlays designed to prevent pressure injuries and maintain tissue integrity while seated.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 33 03",
+        keywords: ["cushion", "seat", "pressure", "tissue integrity", "prevention"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Back cushions and back pads for tissue integrity",
+        category: "Tissue Integrity Management",
+        description: "Back cushions and pads designed to prevent pressure injuries and maintain tissue integrity for the back.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 33 04",
+        keywords: ["cushion", "back", "pressure", "tissue integrity", "pad"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Assistive products for tissue integrity when lying down",
+        category: "Tissue Integrity Management",
+        description: "Products designed to prevent pressure injuries and maintain tissue integrity while lying down.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 33 06",
+        keywords: ["lying", "bed", "pressure", "tissue integrity", "prevention"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Special equipment for tissue integrity",
+        category: "Tissue Integrity Management",
+        description: "Specialized equipment for managing and maintaining tissue integrity.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "04 33 09",
+        keywords: ["special", "equipment", "tissue integrity", "pressure management"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // =====================================================
     // PERSONAL CARE AND PROTECTION (ISO 09)
     // =====================================================
     {
@@ -683,6 +727,16 @@ const athmData = [
         keywords: ["grab rail", "bathroom", "toilet", "support"]
     },
     {
+        name: "Removable grab rails and handgrips",
+        category: "Home Modifications",
+        description: "Removable grab rails and handgrips for temporary or portable support in various locations.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "18 18 10",
+        keywords: ["grab rail", "handgrip", "removable", "portable", "support"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
         name: "Ramp installation (minor)",
         category: "Home Modifications",
         description: "Installation of small ramps for access (up to 3 steps).",
@@ -995,6 +1049,152 @@ const athmData = [
     // =====================================================
     // ORTHOSES AND PROSTHESES (ISO 06)
     // =====================================================
+
+    // Upper limb orthoses
+    {
+        name: "Finger orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support, align, or improve function of the fingers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 03",
+        keywords: ["finger", "orthosis", "splint", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hand orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support, align, or improve function of the hand.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 06",
+        keywords: ["hand", "orthosis", "splint", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hand-finger orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support both the hand and fingers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 07",
+        keywords: ["hand", "finger", "orthosis", "splint", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wrist-hand orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support both the wrist and hand.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 12",
+        keywords: ["wrist", "hand", "orthosis", "splint", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wrist-hand-finger orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support the wrist, hand, and fingers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 13",
+        keywords: ["wrist", "hand", "finger", "orthosis", "splint", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Shoulder-elbow-wrist-hand orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support the shoulder, elbow, wrist, and hand.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 30",
+        keywords: ["shoulder", "elbow", "wrist", "hand", "orthosis", "support", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Hand and finger joints",
+        category: "Orthoses and Prostheses",
+        description: "Joint components for upper limb orthoses affecting the hand and fingers.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 32",
+        keywords: ["joint", "hand", "finger", "orthosis", "component", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Wrist joints",
+        category: "Orthoses and Prostheses",
+        description: "Joint components for upper limb orthoses affecting the wrist.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 33",
+        keywords: ["joint", "wrist", "orthosis", "component", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Elbow joints",
+        category: "Orthoses and Prostheses",
+        description: "Joint components for upper limb orthoses affecting the elbow.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 36",
+        keywords: ["joint", "elbow", "orthosis", "component", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Shoulder joints",
+        category: "Orthoses and Prostheses",
+        description: "Joint components for upper limb orthoses affecting the shoulder.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 39",
+        keywords: ["joint", "shoulder", "orthosis", "component", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Interface components for upper limb orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Interface components used in upper limb orthotic devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 42",
+        keywords: ["interface", "component", "orthosis", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Structural components for upper limb orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Structural components used in upper limb orthotic devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 45",
+        keywords: ["structural", "component", "orthosis", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+    {
+        name: "Finishing (cosmetic) components for upper limb orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Cosmetic finishing components for upper limb orthotic devices.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 06 48",
+        keywords: ["finishing", "cosmetic", "component", "orthosis", "upper limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Lower limb orthoses
+    {
+        name: "Foot orthoses",
+        category: "Orthoses and Prostheses",
+        description: "Orthotic devices designed to support, align, or improve function of the foot.",
+        riskLevel: "prescribed",
+        status: "conditional",
+        isoCode: "06 12 03",
+        keywords: ["foot", "orthosis", "insole", "support", "lower limb"],
+        conditions: "Requires prescription from qualified health professional"
+    },
+
+    // Other orthoses
     {
         name: "Wrist splint",
         category: "Orthoses and Prostheses",
