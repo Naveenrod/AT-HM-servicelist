@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT-HM Service List Lookup | Assistive Technology & Home Modifications</title>
+    <meta name="description" content="Search the Assistive Technology and Home Modifications (AT-HM) list for Support at Home participants.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>AT-HM Service List</h1>
+            <p class="subtitle">Assistive Technology and Home Modifications Lookup</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="info-section">
+            <div class="info-card">
+                <h2>About the AT-HM List</h2>
+                <p>This is the definitive list of products, equipment and home modifications that Support at Home participants can access through the Assistive Technology and Home Modifications (AT-HM) scheme.</p>
+                <p>The AT-HM List uses <strong>Assistive products – classification and terminology (ISO 9999:2022)</strong> to describe the items available through the scheme.</p>
+                <p>AT-HM funding may only be used for products, equipment and home modifications on this list where it optimises that person's functioning or manages that person's disability or age-related functional decline.</p>
+            </div>
+        </section>
+
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for products, equipment or modifications..." aria-label="Search AT-HM items">
+                <button id="clearSearch" class="clear-btn" aria-label="Clear search">×</button>
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="riskFilter">Risk Level:</label>
+                    <select id="riskFilter">
+                        <option value="">All Risk Levels</option>
+                        <option value="low-risk">Low Risk</option>
+                        <option value="under-advice">Under Advice</option>
+                        <option value="prescribed">Prescribed</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="statusFilter">Availability:</label>
+                    <select id="statusFilter">
+                        <option value="">All Items</option>
+                        <option value="included">Included</option>
+                        <option value="conditional">Conditional Inclusion</option>
+                        <option value="excluded">Excluded</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="legend-section">
+            <h3>Risk Level Legend</h3>
+            <div class="legend-items">
+                <div class="legend-item">
+                    <span class="badge low-risk">Low Risk</span>
+                    <p>Simple and relatively low-cost daily living products that need no prescription or customisation</p>
+                </div>
+                <div class="legend-item">
+                    <span class="badge under-advice">Under Advice</span>
+                    <p>Low risk items that would benefit from professional advice to ensure they are selected, installed or used effectively</p>
+                </div>
+                <div class="legend-item">
+                    <span class="badge prescribed">Prescribed</span>
+                    <p>Items that require a prescription from a suitably qualified health professional</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <h2>Results</h2>
+                <span id="resultCount" class="result-count">Loading...</span>
+            </div>
+            <div id="resultsContainer" class="results-grid">
+                <!-- Results will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Disclaimer:</strong> This tool is for informational purposes only. Please consult official Support at Home program guidance for complete and up-to-date information.</p>
+            <p>Further details on who may prescribe assistive technology and home modifications under the AT-HM scheme will be available in forthcoming program guidance.</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
