@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  at-hm-servicelist:
+    build: .
+    container_name: at-hm-servicelist
+    ports:
+      - "8080:80"
+    restart: unless-stopped
